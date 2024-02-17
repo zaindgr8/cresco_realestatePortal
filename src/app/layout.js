@@ -11,9 +11,9 @@ export const metadata = {
   title: 'CRESCO- Your Trust is our priority!',
   description: 'Real Estate Website',
   icons: {
-    // icon: ['/favicon.ico?v=4'],
-    // apple: ['/apple-touch-icon.png?v4'],
-    // shortcut: ['/apple-touch-icon.png']
+    icon: ['/cresco.png?v=4'],
+    apple: ['/cresco.png?v4'],
+    shortcut: ['/cresco.png']
   }
 }
 

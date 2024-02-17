@@ -58,15 +58,15 @@ export default function Header() {
     return (
       <>
         {/* Start Topbar */}
-        <div className="d-none d-lg-block topbar-bg bg-yellow-500 text-white">
+        <div className="d-none d-lg-block topbar-bg bg-gray-900 text-white">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-4 col-lg-3 col-xl-4">
+              <div className="col-md-4 col-lg-3 col-xl-6">
                 <Link href="/" className="headerLogo">
                   <img
-                    className="h-[20vh] mb-2"
-                    src="assets/img/a2.png"
-                    alt=""
+                    className="h-20 w-[15vh] mb-2"
+                    src="assets/img/clogo_white1.png"
+                   
                   />
                 </Link>
               </div>
@@ -126,7 +126,7 @@ export default function Header() {
                   {/* End Collapse Close Button */}
                 </div>
                 {/* End Navbar Collapse Header */}
-                <ul className="navbar-nav">
+                {/* <ul className="navbar-nav">
                   <li className="nav-item dropdown">
                     <Link className="nav-link" href="#" role="button">
                       Home
@@ -142,7 +142,7 @@ export default function Header() {
                       Contact
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               {/*  /. End Navbar Collapse */}
               <div className="d-flex gap-1 ms-lg-5">

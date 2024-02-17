@@ -9,42 +9,44 @@ export default function Footer() {
         {/* Start Footer */}
         <ScrollTop />
         <footer
-          className=" bg-yellow-500 mt-14"
+          className=" bg-gray-900 mt-14"
           data-image-src="assets/img/wall-sketch.png"
         >
           <div className="container pt-4">
             {/* Start Card Contact */}
             <div
-              className="card-contact bg-white text-gray-900 mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
+              className="card-contact text-gray-900 bg-yellow-400 mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
               data-aos="fade-down"
             >
               <div className="row align-items-center position-relative z-1">
                 <div className="col-md-10 col-lg-8 col-xl-6">
-                  <h2 className="display-6 fw-bold text-capitalize ">
-                 Wish to join our team or explore investment opportunities in Dubai Real Estate?
+                  <h2 className="display-6 fw-bold text-capitalize text-gray-900">
+                    Wish to join our team or explore investment opportunities in
+                    Dubai Real Estate?
                   </h2>
                   <div className="mt-3">
                     <div className="col-auto">
                       <div className=" btn-outline-default border-0">
                         <i className="fas  mr-2 fa-mobile"></i>
-                        <span className="">+971 58 514 5 243</span>
+                        <span className="">+971 4 529 9647</span>
                       </div>
                     </div>
                     <div className="col-auto">
                       <div className="fs-17 l-spacing-1 ">
                         <i className="fas fa-envelope fs-15 mr-2"></i>
-                        <span>umer@crescorealestate.ae</span>
+                        <span>info@crescorealestate.ae</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               {/* Start Card Background Image */}
-              <div className="card-sketch w-full mb-[8vh]">
+              <div className="card-sketch w-[45vh] h-[60vh]">
                 <img
-                  src="assets/img/ub1.jpeg"
+                  src="assets/img/clogo_black1.png"
                   alt=""
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
+                  style={{ objectFit: "contain" }}
                 />
               </div>
               {/* /.End Card Background Image */}
@@ -54,12 +56,12 @@ export default function Footer() {
               <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 py-3 py-md-5 pe-xl-5 text-center">
                 <div className="footer-about">
                   <h3 className="fs-20 text-white fw-semibold link-title mb-3 position-relative">
-                    Umer Shauket
+                    CRESCO REAL ESTATE
                   </h3>
                   <div className=" mb-3 d-inline-block">
                     {/* Start Qr Code Image */}
                     <img
-                      src="assets/img/ub3.jpeg"
+                      src="assets/img/clogo_white.png"
                       className="mb-0 object-cover h-[20vh] rounded-lg"
                       height="146"
                       width="146"
@@ -72,11 +74,11 @@ export default function Footer() {
                   </p>
                   <div className="email-link d-block fw-medium mb-1">
                     <i className="text-white fa-solid fa-phone me-2"></i>
-                    <span className="text-white">(+971) 58 514 5243</span>
+                    <span className="text-white">+971 4 529 9647</span>
                   </div>
                   <div className="text-white email-link d-block fw-medium">
                     <i className="fa-solid fa-envelope me-2"></i>
-                    <span className="text-white">umer@crescorealestate.ae</span>
+                    <span className="text-white">info@crescorealestate.ae</span>
                   </div>
                 </div>
               </div>
@@ -109,7 +111,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      href={`https://wa.me/${+971585145243}`}
+                      href={`https://wa.me/${+97145299647}`}
                       target="_blank"
                       className="align-items-center text-white d-flex gap-x-3"
                     >
@@ -140,9 +142,6 @@ export default function Footer() {
                 {/* /.End Footer Link */}
               </div>
               <div className="col-6 col-sm-4 col-md-4 col-lg col-xl-2 py-3 py-md-5">
-                {/* /Start Social Icon */}
-
-                {/* /.End Social Icon */}
               </div>
             </div>
             <hr className="mb-0 mt-4" />
@@ -150,7 +149,7 @@ export default function Footer() {
               <div className="align-items-center row mb-2">
                 {/* Start Copy Rights Text */}
                 <div className="col-sm-auto copy text-sm text-white">
-                  © 2024 UMER SHAUKET - ALL RIGHTS RESERVED
+                  © 2024 CRESCO REAL ESTATE - ALL RIGHTS RESERVED
                 </div>
                 {/* /.End Copy Rights Text */}
               </div>
