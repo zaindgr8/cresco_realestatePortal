@@ -65,7 +65,7 @@ export default function Header() {
                 <Link href="/" className="headerLogo">
                   <img
                     className="h-20 w-[15vh] mb-2"
-                    src="assets/img/clogo_white1.png"
+                    src="assets/img/clogo.png"
                    
                   />
                 </Link>

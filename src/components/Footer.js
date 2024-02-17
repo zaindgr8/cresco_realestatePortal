@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="container pt-4">
             {/* Start Card Contact */}
             <div
-              className="card-contact text-gray-900 bg-yellow-400 mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
+              className="card-contact text-gray-900 bg-white mb-4 mt-5 py-5 px-4 px-md-5 position-relative overflow-hidden rounded-3 shadow-lg"
               data-aos="fade-down"
             >
               <div className="row align-items-center position-relative z-1">
@@ -43,7 +43,7 @@ export default function Footer() {
               {/* Start Card Background Image */}
               <div className="card-sketch w-[45vh] h-[60vh]">
                 <img
-                  src="assets/img/clogo_black1.png"
+                  src="assets/img/clogo.png"
                   alt=""
                   className="w-full h-full object-cover object-center"
                   style={{ objectFit: "contain" }}
@@ -58,11 +58,11 @@ export default function Footer() {
                   <h3 className="fs-20 text-white fw-semibold link-title mb-3 position-relative">
                     CRESCO REAL ESTATE
                   </h3>
-                  <div className=" mb-3 d-inline-block">
+                  <div className="d-inline-block">
                     {/* Start Qr Code Image */}
                     <img
-                      src="assets/img/clogo_white.png"
-                      className="mb-0 object-cover h-[20vh] rounded-lg"
+                      src="assets/img/clogo.png"
+                      className="object-cover h-[20vh] rounded-lg"
                       height="146"
                       width="146"
                       alt="..."
