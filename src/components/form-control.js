@@ -5,9 +5,9 @@ import Select from 'react-select';
 function DropdownTwo() {
   const [value, setValue] = useState(null)
   const options = [
-    { value: "San Diego", label: "San Diego" },
-    { value: "Los Angeles", label: "Los Angeles" },
-    { value: "San Francisco", label: "San Francisco" },
+    { value: "Marina JBR", label: "Marina JBR" },
+    { value: "Business Bay", label: "Business Bay" },
+    { value: "Creek Harbour", label: "Creek Harbour" },
   ]
   const optionsTwo = [
     { value: "Offices", label: "Offices" },

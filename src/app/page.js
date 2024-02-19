@@ -6,13 +6,14 @@ import FooterWhite from "@/components/footer-white";
 import Dropdown from "@/components/form-control-two";
 import Link from "next/link";
 import Layout from "@/components/Layout";
+import FSection from "@/crescoComponent/FSection";
 
 export default function HomeTwo() {
   return (
     <>
-   <Layout>
-
-   </Layout>
+      <Layout>
+        <FSection/>
+      </Layout>
     </>
   );
 }

@@ -9,9 +9,9 @@ const Select = dynamic(() => import("react-select"), {
 function Dropdown() {
   const [value, setValue] = useState(null)
   const options = [
-    { value: "San Diego", label: "San Diego" },
-    { value: "Los Angeles", label: "Los Angeles" },
-    { value: "San Francisco", label: "San Francisco" },
+    { value: "Business Bay", label: "Business Bay" },
+    { value: "JVC", label: "JVC" },
+    { value: "Marina JBR", label: "Marina JBR" },
   ]
   const optionsTwo = [
     { value: "Offices", label: "Offices" },
@@ -105,8 +105,9 @@ function Dropdown() {
             placeholder="Search For Properties ....."
           />
           <Link
-            href="properties-list"
-            className="btn btn-primary search-btn position-absolute top-50"
+            // href="properties-list"
+            href="/"
+            className="btn bg-yellow-400 hover:border-yellow-400 hover:bg-yellow-500 search-btn position-absolute top-50"
           >
             <i className="fa-solid fa-angle-right" />
           </Link>
