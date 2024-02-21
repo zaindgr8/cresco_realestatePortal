@@ -7,12 +7,14 @@ import Dropdown from "@/components/form-control-two";
 import Link from "next/link";
 import Layout from "@/components/Layout";
 import FSection from "@/crescoComponent/FSection";
+import Ssection from "@/crescoComponent/Ssection";
 
 export default function HomeTwo() {
   return (
     <>
       <Layout>
         <FSection/>
+        <Ssection/>
       </Layout>
     </>
   );
