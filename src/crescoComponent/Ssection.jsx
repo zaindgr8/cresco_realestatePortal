@@ -37,12 +37,12 @@ const Ssection = () => {
         </div>
         <div className="row g-4 justify-content-center">
           <div className="col-md-6 d-flex">
-            <div className="bg-yellow-400 p-4 p-lg-5 rounded-3 w-100 flex-fill">
+            <div className="bg-yellow-400 text-white p-4 p-lg-5 rounded-3 w-100 flex-fill">
               We specialize in trusted high-rise projects in Dubai, prioritizing
               excellence and client trust.
               <button
                 type="button"
-                className="border-1 p-2 rounded-lg text-yellow-400 hover:text-yellow-600 hover:bg-gray-700 bg-gray-900 mt-3 hstack gap-2"
+                className="border-1 p-2 rounded-lg text-white hover:text-yellow-600 hover:bg-gray-700 bg-gray-900 mt-3 hstack gap-2"
               >
                 <span>View New Projects</span>
                 <span className="vr" />

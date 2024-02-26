@@ -8,6 +8,7 @@ import Link from "next/link";
 import Layout from "@/components/Layout";
 import FSection from "@/crescoComponent/FSection";
 import Ssection from "@/crescoComponent/Ssection";
+import TSection from "@/crescoComponent/TSection";
 
 export default function HomeTwo() {
   return (
@@ -15,6 +16,7 @@ export default function HomeTwo() {
       <Layout>
         <FSection/>
         <Ssection/>
+        <TSection/>
       </Layout>
     </>
   );
