@@ -47,7 +47,7 @@ const TSection = () => {
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
-                      src="assets/img/avatar/01.jpg"
+                      src="assets/img/avatar/az4.jpeg"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -58,9 +58,9 @@ const TSection = () => {
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                  <Link href="/">Malik Shahmeer</Link>
+                  <Link href="/">Mohammad Azam Tariq</Link>
                 </h5>
-                <div>Sales Executive</div>
+                <div>Sales Director</div>
               </div>
               {/* /.End Agent Card */}
             </div>
@@ -75,35 +75,7 @@ const TSection = () => {
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
-                      src="assets/img/avatar/02.jpg"
-                      alt=""
-                      className="avatar-img rounded-circle"
-                    />
-                  </Link>
-                  {/* /.End Avatar Image */}
-                  <div className="align-items-center avatar-badge bg-yellow-500 d-flex justify-content-center position-absolute rounded-circle text-white">
-                    <i className="fas fa-medal" />
-                  </div>
-                </div>
-                <h5 className="mt-3 mb-1">
-                  <Link href="/">Osama Khalifa</Link>
-                </h5>
-                <div>Sales Manager</div>
-              </div>
-              {/* /.End Agent Card */}
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-              {/* Start Agent Card */}
-              <div
-                className="agent-card text-center"
-                data-aos="fade"
-                data-aos-delay={500}
-              >
-                <div className="avatar rounded-circle p-1 border">
-                  {/* Start Avatar Image */}
-                  <Link href="/">
-                    <img
-                      src="assets/img/avatar/03.jpg"
+                      src="assets/img/avatar/vrutika.jpeg"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -125,13 +97,41 @@ const TSection = () => {
               <div
                 className="agent-card text-center"
                 data-aos="fade"
+                data-aos-delay={500}
+              >
+                <div className="avatar rounded-circle p-1 border">
+                  {/* Start Avatar Image */}
+                  <Link href="/">
+                    <img
+                      src="assets/img/avatar/umer.jpg"
+                      alt=""
+                      className="avatar-img rounded-circle"
+                    />
+                  </Link>
+                  {/* /.End Avatar Image */}
+                  <div className="align-items-center avatar-badge bg-yellow-500 d-flex justify-content-center position-absolute rounded-circle text-white">
+                    <i className="fas fa-medal" />
+                  </div>
+                </div>
+                <h5 className="mt-3 mb-1">
+                  <Link href="/">Omer Akram</Link>
+                </h5>
+                <div>Sales Manager</div>
+              </div>
+              {/* /.End Agent Card */}
+            </div>
+            <div className="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+              {/* Start Agent Card */}
+              <div
+                className="agent-card text-center"
+                data-aos="fade"
                 data-aos-delay={600}
               >
                 <div className="avatar rounded-circle p-1 border ">
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
-                      src="assets/img/avatar/04.jpg"
+                      src="assets/img/avatar/gulli.jpg"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -159,7 +159,7 @@ const TSection = () => {
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
-                      src="assets/img/avatar/05.jpg"
+                      src="assets/img/avatar/mrgo.png"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -187,7 +187,7 @@ const TSection = () => {
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
-                      src="assets/img/avatar/06.jpg"
+                      src="assets/img/avatar/dua.jpeg"
                       alt=""
                       className="avatar-img rounded-circle"
                     />

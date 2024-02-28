@@ -12,7 +12,7 @@ const FSection = () => {
       {/* Start Oblique */}
       <div className="d-md-block d-none h-100 oblique overflow-hidden position-absolute top-0">
         <img
-          src="assets/img/header/02.jpg"
+          src="assets/img/header/cresco.gif"
           alt=""
           className="h-100 object-fit-cover position-absolute w-100 oblique-image top-0"
         />
@@ -26,7 +26,7 @@ const FSection = () => {
               Welcome To CRESCO
             </div>
             <h1 className="hero-header_title fw-bold mb-5 display-3">
-              Find Your Dream Property with us at CRESCO Real Estate
+              Find Your Dream <br /> Property with us at CRESCO Real Estate
             </h1>
             {/* Start Main Search Content */}
             <Dropdown />
@@ -64,24 +64,24 @@ const FSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-auto fs-18 p-0 text-primary">
-            <i className="fa-solid text-yellow-400 fa-chevron-right" />
-          </div>
+          <div className="col-auto fs-18 p-0 text-primary"></div>
+          {/*/.work-col Dream House*/}
+
           {/*/.work-col*/}
-          <div className="col-auto">
-            <div className="align-items-center d-flex justify-content-center justify-content-md-start">
-              <div className="work-icon me-3">
-                <i className="fas fa-igloo fs-30 text-yellow-400" />
-              </div>
-              <div className="media-body">
-                <h5 className="fs-18 fw-semibold mb-0 work-title">
-                  Get your dream house
-                </h5>
-                {/* <div class="work-sub_title text-muted">There are many variations</div> */}
-              </div>
+        </div>
+        <div className="col-auto py-4">
+          <div className="align-items-center d-flex justify-content-center justify-content-md-start">
+            <div className="work-icon me-3">
+              <i className="fa-solid text-yellow-400 fa-chevron-right mr-5" />
+              <i className="fas fa-igloo fs-30 text-yellow-400" />
+            </div>
+            <div className="media-body">
+              <h5 className="fs-18 fw-semibold mb-0 work-title">
+                Get your dream house
+              </h5>
+              {/* <div class="work-sub_title text-muted">There are many variations</div> */}
             </div>
           </div>
-          {/*/.work-col*/}
         </div>
       </div>
     </div>
