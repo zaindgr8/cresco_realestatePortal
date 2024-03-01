@@ -28,9 +28,9 @@ export default async function Regions() {
                   <div className="accordion bottom-0 d-flex flex-column h-100 justify-content-end mask overflow-hidden position-absolute start-0 w-100 z-1">
                     <div className="mask-content m-3">
                       <h2>{region.title}</h2>
-                      <span className="d-none d-md-block d-xl-none d-xxl-block">
+                      {/* <span className="d-none d-md-block d-xl-none d-xxl-block">
                         {region.properties}
-                      </span>
+                      </span> */}
                       <div className="svg-wrap">
                         <svg
                           width="28px"

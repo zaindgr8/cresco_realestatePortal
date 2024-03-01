@@ -2,37 +2,37 @@
     {
         "id": 1,
         "img": "assets/img/regions/01.jpg",
-        "title": "Fox Hills",
+        "title": "EMAAR",
         "properties": "38 properties"
     },
     {
         "id": 2,
         "img": "assets/img/regions/02.jpg",
-        "title": "The Pearl - Qanat Quartier",
+        "title": "ELLINGTON",
         "properties": "33 properties"
     },
     {
         "id": 3,
         "img": "assets/img/regions/03.jpg",
-        "title": "Musheireb - Msheireb Downtown",
+        "title": "SOBHA",
         "properties": "20 properties"
     },
     {
         "id": 4,
         "img": "assets/img/regions/04.jpg",
-        "title": "Entertainment City",
+        "title": "DAMAC",
         "properties": "52 properties"
     },
     {
         "id": 5,
         "img": "assets/img/regions/05.jpg",
-        "title": "Al Erkyah",
+        "title": "AZIZI",
         "properties": "5 properties"
     },
     {
         "id": 6,
         "img": "assets/img/regions/06.jpg",
-        "title": "Waterfront District",
+        "title": "DANUBE",
         "properties": "40 properties"
     }
 ]

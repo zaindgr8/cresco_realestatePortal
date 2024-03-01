@@ -9,6 +9,7 @@ import Layout from "@/components/Layout";
 import FSection from "@/crescoComponent/FSection";
 import Ssection from "@/crescoComponent/Ssection";
 import TSection from "@/crescoComponent/TSection";
+import Frthsection from "@/crescoComponent/Frthsection";
 
 export default function HomeTwo() {
   return (
@@ -17,6 +18,7 @@ export default function HomeTwo() {
         <FSection/>
         <Ssection/>
         <TSection/>
+        <Frthsection/>
       </Layout>
     </>
   );
