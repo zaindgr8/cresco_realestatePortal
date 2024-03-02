@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "img": "assets/img/regions/01.jpg",
+        "img": "assets/img/regions/emr.jpeg",
         "title": "EMAAR",
         "properties": "38 properties"
     },
     {
         "id": 2,
-        "img": "assets/img/regions/02.jpg",
+        "img": "assets/img/regions/ellington.jpeg",
         "title": "ELLINGTON",
         "properties": "33 properties"
     },
     {
         "id": 3,
-        "img": "assets/img/regions/03.jpg",
+        "img": "assets/img/regions/sobha.jpeg",
         "title": "SOBHA",
         "properties": "20 properties"
     },
     {
         "id": 4,
-        "img": "assets/img/regions/04.jpg",
+        "img": "assets/img/regions/dmc.jpeg",
         "title": "DAMAC",
         "properties": "52 properties"
     },
     {
         "id": 5,
-        "img": "assets/img/regions/05.jpg",
+        "img": "assets/img/regions/azi.jpeg",
         "title": "AZIZI",
         "properties": "5 properties"
     },
     {
         "id": 6,
-        "img": "assets/img/regions/06.jpg",
+        "img": "assets/img/regions/danube.jpeg",
         "title": "DANUBE",
         "properties": "40 properties"
     }
