@@ -22,7 +22,7 @@ const FSection = () => {
         <div className="row">
           <div className="col-lg-10 col-xl-8">
             {/* <p class="title-sm">BEAT TRAFFIC JAMS AND CLINIC QUEUES.</p> */}
-            <div className="bg-yellow-400 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+            <div className="bg-yellow-500 text-white d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize">
               Welcome To CRESCO
             </div>
             <h1 className="hero-header_title fw-bold mb-5 display-3">
