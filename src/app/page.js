@@ -12,6 +12,7 @@ import TSection from "@/app/crescoComponent/TSection";
 import Frthsection from "@/app/crescoComponent/Frthsection";
 import FfthSection from "@/app/crescoComponent/FfthSection";
 import Testimonial from "@/app/crescoComponent/Testimonial";
+import CeoMessage from "./crescoComponent/CeoMessage";
 
 export default function HomeTwo() {
   return (
@@ -23,6 +24,7 @@ export default function HomeTwo() {
         <Frthsection/>
         <FfthSection/>
         <Testimonial/>
+        <CeoMessage/>
       </Layout>
     </>
   );

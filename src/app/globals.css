@@ -1157,8 +1157,8 @@ textarea.form-control {
   text-align: center;
   font-size: .75rem;
   border-radius: 50%;
-  background-color: rgb(10, 115, 192, .1);
-  color: var(--bs-primary);
+  background-color: #212529; /* Maintain original background color */
+  color: #ffc107; /* Yellow-500 color in Bootstrap */
   -webkit-transform: translate(0, -50%);
       -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
@@ -2896,7 +2896,7 @@ textarea.form-control {
   height: 2px;
   width: 30px;
   content: '';
-  background: var(--bs-primary);
+  background: #ffc107;
 }
 
 .member-social {
@@ -2928,8 +2928,9 @@ textarea.form-control {
   width: 10rem;
   top: -80px;
   left: -70px;
-  background: -o-repeating-linear-gradient(145deg, rgba(255, 255, 255, 0) .8px, var(--bs-primary) 1.6px, var(--bs-primary) 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
-  background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, var(--bs-primary) 1.6px, var(--bs-primary) 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
+  background: -o-repeating-linear-gradient(145deg, rgba(255, 255, 255, 0) .8px, #ffc107 1.6px, #ffc107 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
+  background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) .8px, #ffc107 1.6px, #ffc107 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
+
 }
 
 .line-shape-home {
