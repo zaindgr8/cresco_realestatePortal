@@ -1232,7 +1232,7 @@ textarea.form-control {
 }
 
 .breadcrumb {
-  --bs-breadcrumb-divider-color: #0a73c0;
+  --bs-breadcrumb-divider-color: black;
   --bs-breadcrumb-item-active-color: #0a73c0;
 }
 

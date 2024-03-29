@@ -16,15 +16,15 @@ export default async function AgentList() {
                 Meet Our Agents
               </h4>
               <div className="border-start col-auto">
-                <ol className="align-items-center breadcrumb fw-medium mb-0">
+                <ol className="align-items-center  breadcrumb fw-medium mb-0">
                   <li className="breadcrumb-item d-flex align-items-center">
                     <Link href="/" className="text-decoration-none">
-
-                      <i className="fa-solid fa-house-chimney-crack fs-18" />
+                      <i className="fa-solid text-gray-900 fa-house-chimney-crack fs-18" />
                     </Link>
                   </li>
+
                   <li
-                    className="breadcrumb-item d-flex align-items-center active"
+                    className="breadcrumb-item d-flex text-gray-900  align-items-center "
                     aria-current="page"
                   >
                     Agents
@@ -43,13 +43,15 @@ export default async function AgentList() {
                 {/* Start Section Header Title */}
                 <div className="section-header text-center mb-5">
                   {/* Start Section Header title */}
-                  <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">Meet Our <span className="underline position-relative text-primary">Agents</span></h2>
+                  <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
+                    Meet Our Realtors
+                  </h2>
                   {/* /.End Section Header Title */}
                   {/* Start Section Header Sub Title */}
                   <div className="sub-title fs-16">
-                    Our guests always travel the world in style. Mention @Kempinski
-                    <br className="d-none d-lg-block" /> on Instagram for a chance
-                    to be featured!
+                    Discover the dedicated team of elite real estate
+                    professionals <br /> ready to guide you through the world of
+                    luxury properties in Dubai.
                   </div>
                   {/* /.End Section Header Sub Title */}
                 </div>
@@ -57,9 +59,8 @@ export default async function AgentList() {
               </div>
             </div>
             {/* Start Agent Card */}
-            <AgentListData/>
+            <AgentListData />
             {/* .End Agent Card */}
-
           </div>
         </div>
         {/* /. End Agent Content */}

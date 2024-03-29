@@ -75,7 +75,7 @@ const TSection = () => {
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
-                      src="assets/img/avatar/vrutika.jpeg"
+                      src="assets/img/avatar/wld.jpeg"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -86,9 +86,9 @@ const TSection = () => {
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                  <Link href="/">Vrutika</Link>
+                  <Link href="/">Waleed Khan</Link>
                 </h5>
-                <div>Sales Executive</div>
+                <div>Sales Consultant</div>
               </div>
               {/* /.End Agent Card */}
             </div>
@@ -211,7 +211,9 @@ const TSection = () => {
             className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg hstack mx-auto mt-5 gap-2"
             data-aos="fade-up"
           >
-            <span>Brows More Agents</span>
+            <Link href="/agent-list">
+              <span>Brows More Agents</span>
+            </Link>
             <span className="vr" />
             <i className="fa-arrow-right fa-solid fs-14" />
           </button>
