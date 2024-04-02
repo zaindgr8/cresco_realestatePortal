@@ -11,11 +11,11 @@ const Frthsection = () => {
 
         <div className="text-center mt-5" data-aos="fade-up">
           {/* Start Button */}
-          <button className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg d-inline-flex hstack gap-2">
+          {/* <button className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg d-inline-flex hstack gap-2">
             <span>Brows More Projects</span>
             <span className="vr" />
             <i className="fa-arrow-right fa-solid fs-14" />
-          </button>
+          </button> */}
           {/* /.End Button */}
         </div>
       </div>

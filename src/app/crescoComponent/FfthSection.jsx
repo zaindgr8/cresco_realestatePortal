@@ -61,31 +61,31 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">800 AED</h3>
-                  <div> /month</div>
+                  <h3 className="m-0 fw-semibold text-yellow-500">140,000 AED</h3>
+                  <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  Business Bay, Dubai
+                  JVC
                 </h4>
                 <div className="card-property-description mb-3">
-                  Floor 4th, Room 400
+                  Dubai, UAE
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
                     <i className="fa-solid fa-bed text-dark me-1" />
-                    <span>1 Beds</span>
+                    <span>1 Bed</span>
                   </div>
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-bath text-dark me-1" />
-                    <span>1 Baths</span>
+                    <span>1 Bath</span>
                   </div>
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>5x7 m²</span>
+                    <span>1300 Sqft</span>
                   </div>
                 </div>
                 {/* /. End Card Property Facilities */}
@@ -110,37 +110,37 @@ const FfthSection = () => {
                   alt=""
                   className="img-fluid"
                 />
-                <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
-                  For Sale
+                <div className="bg-yellow-500 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                  For Rent
                 </div>
               </div>
               {/* /. End Property Image */}
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-gray-900">1.5M AED</h3>
-                  <div> /full-payment</div>
+                  <h3 className="m-0 fw-semibold text-yellow-500">95,000 AED</h3>
+                  <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">International City</h4>
+                <h4 className="property-card-title mb-3">Creek Harbour</h4>
                 <div className="card-property-description mb-3">
-                  France Cluster, Q4, Floor 4th
+                  Dubai, UAE
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
                     <i className="fa-solid fa-bed text-dark me-1" />
-                    <span>1 Bed1</span>
+                    <span>1 Bed</span>
                   </div>
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-bath text-dark me-1" />
-                    <span>1 Bath1</span>
+                    <span>1 Bath</span>
                   </div>
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>5x7 m²</span>
+                    <span>675 Sqft</span>
                   </div>
                 </div>
                 {/* /. End Card Property Facilities */}
@@ -165,29 +165,29 @@ const FfthSection = () => {
                   alt=""
                   className="img-fluid"
                 />
-                <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
-                  For Sale
+                <div className="bg-yellow-500 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                  For Rent
                 </div>
               </div>
               {/* /. End Property Image */}
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-gray-900">7M AED</h3>
-                  <div> /mortgage</div>
+                  <h3 className="m-0 fw-semibold text-yellow-500">130,000 AED</h3>
+                  <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  Al Quoz, Dubai
+                  Dubai Science Park
                 </h4>
                 <div className="card-property-description mb-3">
-                  Villa 30, St 56
+                  Dubai, UAE
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
                     <i className="fa-solid fa-bed text-dark me-1" />
-                    <span>3 Beds</span>
+                    <span>2 Beds</span>
                   </div>
                   <span className="vr" />
                   <div className="">
@@ -197,7 +197,7 @@ const FfthSection = () => {
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>5x7 m²</span>
+                    <span>1457 Sqft</span>
                   </div>
                 </div>
                 {/* /. End Card Property Facilities */}
@@ -218,27 +218,27 @@ const FfthSection = () => {
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
                 <img
-                  src="assets/img/properties/04.jpg"
+                  src="assets/img/properties/sportscity.jpeg"
                   alt=""
                   className="img-fluid"
                 />
-                <div className="bg-yellow-500 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
-                  For Rent
+                <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                  For Sale
                 </div>
               </div>
               {/* /. End Property Image */}
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">2600 AED</h3>
-                  <div> / month</div>
+                  <h3 className="m-0 fw-semibold text-gray-900">850,000 AED</h3>
+                  <div> / full-payment</div>
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  Marina JBR, Dubai
+                  Dubai Sports City
                 </h4>
                 <div className="card-property-description mb-3">
-                  Near Beach, Commercial Block
+                  Dubai, UAE
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -249,12 +249,12 @@ const FfthSection = () => {
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-bath text-dark me-1" />
-                    <span>1 Baths</span>
+                    <span>2 Baths</span>
                   </div>
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>5x7 m²</span>
+                    <span>704 Sqft</span>
                   </div>
                 </div>
                 {/* /. End Card Property Facilities */}
@@ -287,31 +287,31 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">4000 AED</h3>
+                  <h3 className="m-0 fw-semibold text-yellow-500">50,000 AED</h3>
                   <div> /month</div>
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  Silicon Oasis, Dubai
+                  Arjan
                 </h4>
                 <div className="card-property-description mb-3">
-                  Building 205, Apt 500
+                  Dubai, UAE
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
                     <i className="fa-solid fa-bed text-dark me-1" />
-                    <span>3 Beds</span>
+                    <span>1 Bed</span>
                   </div>
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-bath text-dark me-1" />
-                    <span>3 Baths</span>
+                    <span>1 Bath</span>
                   </div>
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>5x7 m²</span>
+                    <span>422.59 Sqft</span>
                   </div>
                 </div>
                 {/* /. End Card Property Facilities */}
@@ -319,120 +319,7 @@ const FfthSection = () => {
             </div>
             {/* /. End Card Property */}
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xl-3 d-flex"
-            data-aos="fade-up"
-            data-aos-delay={800}
-          >
-            {/* Start Card Property */}
-            <div className="border-0 card card-property rounded-3 shadow w-100 flex-fill overflow-hidden">
-              {/* Start Card Link */}
-              <Link href="/" className="card-link" />
-              {/* /. End Card Link */}
-              {/* Start Property Image */}
-              <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/06.jpg"
-                  alt=""
-                  className="img-fluid"
-                />
-                <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
-                  For Sale
-                </div>
-              </div>
-              {/* /. End Property Image */}
-              <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
-                {/* Start Card Property Price */}
-                <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-gray-900">5M AED</h3>
-                  <div> /Emaar</div>
-                </div>
-                {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">
-                  Creek Harbour, Dubai
-                </h4>
-                <div className="card-property-description mb-3">
-                  Villa 300, Near Creek
-                </div>
-                {/* Start Card Property Facilities */}
-                <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
-                  <div className="">
-                    <i className="fa-solid fa-bed text-dark me-1" />
-                    <span>2 Beds</span>
-                  </div>
-                  <span className="vr" />
-                  <div className="">
-                    <i className="fa-solid fa-bath text-dark me-1" />
-                    <span>2 Baths</span>
-                  </div>
-                  <span className="vr" />
-                  <div className="">
-                    <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>5x7 m²</span>
-                  </div>
-                </div>
-                {/* /. End Card Property Facilities */}
-              </div>
-            </div>
-            {/* /. End Card Property */}
-          </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xl-3 d-flex"
-            data-aos="fade-up"
-            data-aos-delay={900}
-          >
-            {/* Start Card Property */}
-            <div className="border-0 card card-property rounded-3 shadow w-100 flex-fill overflow-hidden">
-              {/* Start Card Link */}
-              <Link href="/" className="card-link" />
-              {/* /. End Card Link */}
-              {/* Start Property Image */}
-              <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/07.jpg"
-                  alt=""
-                  className="img-fluid"
-                />
-                <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
-                  For Sale
-                </div>
-              </div>
-              {/* /. End Property Image */}
-              <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
-                {/* Start Card Property Price */}
-                <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-gray-900">7M AED</h3>
-                  <div> /Ellington</div>
-                </div>
-                {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">
-                  Palm Jumerah, Dubau
-                </h4>
-                <div className="card-property-description mb-3">
-                  Street 7
-                </div>
-                {/* Start Card Property Facilities */}
-                <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
-                  <div className="">
-                    <i className="fa-solid fa-bed text-dark me-1" />
-                    <span>3 Beds</span>
-                  </div>
-                  <span className="vr" />
-                  <div className="">
-                    <i className="fa-solid fa-bath text-dark me-1" />
-                    <span>3 Baths</span>
-                  </div>
-                  <span className="vr" />
-                  <div className="">
-                    <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>5x7 m²</span>
-                  </div>
-                </div>
-                {/* /. End Card Property Facilities */}
-              </div>
-            </div>
-            {/* /. End Card Property */}
-          </div>
+        
           <div
             className="col-sm-6 col-lg-4 col-xl-3 d-flex"
             data-aos="fade-up"
@@ -446,27 +333,27 @@ const FfthSection = () => {
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
                 <img
-                  src="assets/img/properties/08.jpg"
+                  src="assets/img/properties/marina.jpeg"
                   alt=""
                   className="img-fluid"
                 />
-                <div className="bg-yellow-500 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
-                  For Rent
+                <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                  For Sale
                 </div>
               </div>
               {/* /. End Property Image */}
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">6000 AED</h3>
-                  <div> / month</div>
+                  <h3 className="m-0 fw-semibold text-gray-900">14,50,000 AED</h3>
+                  <div> / full-payment</div>
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">
-                  DIFC, Dubai
+                  Marina
                 </h4>
                 <div className="card-property-description mb-3">
-                  Street 6
+                  Dubai, UAE
                 </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
@@ -482,7 +369,7 @@ const FfthSection = () => {
                   <span className="vr" />
                   <div className="">
                     <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>5x7 m²</span>
+                    <span>1200 Sqft</span>
                   </div>
                 </div>
                 {/* /. End Card Property Facilities */}
@@ -493,7 +380,7 @@ const FfthSection = () => {
         </div>
         <div className="text-center mt-5" data-aos="fade-up">
           {/* Start Button */}
-          <Link
+          {/* <Link
             // href="properties-list"
             href="/"
             className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg d-inline-flex hstack gap-2"
@@ -501,7 +388,7 @@ const FfthSection = () => {
             <span>Browse All Properties</span>
             <span className="vr" />
             <i className="fa-arrow-right fa-solid fs-14" />
-          </Link>
+          </Link> */}
           {/* /.End Button */}
         </div>
       </div>
