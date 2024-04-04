@@ -1,7 +1,27 @@
+"use client"
 import Link from 'next/link';
 import React from 'react'
 
 const TSection = () => {
+  const handleClickAzam = () => {
+    window.open(`https://wa.me/${+971521307749}`, "_blank");
+  };
+  const handleClickWaleed = () => {
+    window.open(`https://wa.me/${+971521543532}`, "_blank");
+  };
+  const handleClickOmerAkram = () => {
+    window.open(`https://wa.me/${+971585251995}`, "_blank");
+  };
+  const handleClickGulli = () => {
+    window.open(`https://wa.me/${+971551379008}`, "_blank");
+  };
+  
+  const handleClickMargo = () => {
+    window.open(`https://wa.me/${+971521021429}`, "_blank");
+  };
+  const handleClickDua = () => {
+    window.open(`https://wa.me/${+971544834967}`, "_blank");
+  };
   return (
     <>
       <div className="py-5 bg-gray-100">
@@ -14,7 +34,10 @@ const TSection = () => {
                 data-aos="fade-down"
               >
                 {/* Start Subtitle */}
-                <div className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+                <div
+                  id="agents"
+                  className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900"
+                >
                   Agents
                 </div>
                 {/* /. End Subtitle */}
@@ -43,7 +66,10 @@ const TSection = () => {
                 data-aos="fade"
                 data-aos-delay={300}
               >
-                <div className="avatar rounded-circle p-1 border ">
+                <button
+                  onClick={handleClickAzam}
+                  className="avatar rounded-circle p-1 border "
+                >
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
@@ -56,7 +82,7 @@ const TSection = () => {
                   <div className="align-items-center avatar-badge bg-yellow-500 d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-medal" />
                   </div>
-                </div>
+                </button>
                 <h5 className="mt-3 mb-1">
                   <Link href="/">Mohammad Azam Tariq</Link>
                 </h5>
@@ -71,7 +97,7 @@ const TSection = () => {
                 data-aos="fade"
                 data-aos-delay={400}
               >
-                <div className="avatar rounded-circle p-1 border">
+                <button onClick={handleClickWaleed} className="avatar rounded-circle p-1 border">
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
@@ -84,7 +110,7 @@ const TSection = () => {
                   <div className="align-items-center avatar-badge bg-yellow-500 d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-medal" />
                   </div>
-                </div>
+                </button>
                 <h5 className="mt-3 mb-1">
                   <Link href="/">Waleed Khan</Link>
                 </h5>
@@ -99,7 +125,7 @@ const TSection = () => {
                 data-aos="fade"
                 data-aos-delay={500}
               >
-                <div className="avatar rounded-circle p-1 border">
+                <button onClick={handleClickOmerAkram} className="avatar rounded-circle p-1 border">
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
@@ -112,7 +138,7 @@ const TSection = () => {
                   <div className="align-items-center avatar-badge bg-yellow-500 d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-medal" />
                   </div>
-                </div>
+                </button>
                 <h5 className="mt-3 mb-1">
                   <Link href="/">Omer Akram</Link>
                 </h5>
@@ -127,7 +153,7 @@ const TSection = () => {
                 data-aos="fade"
                 data-aos-delay={600}
               >
-                <div className="avatar rounded-circle p-1 border ">
+                <button onClick={handleClickGulli} className="avatar rounded-circle p-1 border ">
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
@@ -140,7 +166,7 @@ const TSection = () => {
                   <div className="align-items-center avatar-badge bg-yellow-500 d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-medal" />
                   </div>
-                </div>
+                </button>
                 <h5 className="mt-3 mb-1">
                   <Link href="/">Gulraiz Naveed</Link>
                 </h5>
@@ -155,7 +181,7 @@ const TSection = () => {
                 data-aos="fade"
                 data-aos-delay={700}
               >
-                <div className="avatar rounded-circle p-1 border">
+                <button onClick={handleClickMargo} className="avatar rounded-circle p-1 border">
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
@@ -168,7 +194,7 @@ const TSection = () => {
                   <div className="align-items-center avatar-badge bg-yellow-500 d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-medal" />
                   </div>
-                </div>
+                </button>
                 <h5 className="mt-3 mb-1">
                   <Link href="/">Margault Pearl</Link>
                 </h5>
@@ -183,7 +209,7 @@ const TSection = () => {
                 data-aos="fade"
                 data-aos-delay={800}
               >
-                <div className="avatar rounded-circle p-1 border">
+                <button onClick={handleClickDua} className="avatar rounded-circle p-1 border">
                   {/* Start Avatar Image */}
                   <Link href="/">
                     <img
@@ -196,7 +222,7 @@ const TSection = () => {
                   <div className="align-items-center avatar-badge bg-yellow-500 d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-medal" />
                   </div>
-                </div>
+                </button>
                 <h5 className="mt-3 mb-1">
                   <Link href="/">Dua Reina</Link>
                 </h5>

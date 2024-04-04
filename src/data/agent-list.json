@@ -11,7 +11,8 @@
         "language":"English, Arabic",
         "rent": "193",
         "sell": "633",
-        "commercial": "10"
+        "commercial": "10",
+        "phoneNumber":"+971545666510"
     },
    
     {
@@ -26,7 +27,8 @@
         "language":"English, Urdu",
         "rent": "193",
         "sell": "633",
-        "commercial": "10"
+        "commercial": "10",
+        "phoneNumber":"+971527608166"
     },
     {
         "id": 4,
@@ -40,6 +42,7 @@
         "language":"English, Arabic",
         "rent": "193",
         "sell": "633",
-        "commercial": "10"
+        "commercial": "10",
+        "phoneNumber":"+971581384010"
     }
 ]

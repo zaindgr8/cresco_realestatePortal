@@ -42,65 +42,67 @@ function DropdownTwo() {
     }),
   };
   return (
-    <form className="row g-2 main-search">
-      <div className="col-md-12">
-        {/* Start Search Input */}
-        <div className="search-input">
-          <i className="fa-solid fa-magnifying-glass search-icon" />
-          <input
-            type="text"
-            className="form-control"
-            placeholder="Search For Properties ....."
-          />
-          <Link
-            href="properties-list"
-            className="btn btn-primary search-btn position-absolute top-50"
-          >
-            <i className="fa-solid fa-angle-right" />
-          </Link>
+    <>
+      <form className="row g-2 main-search">
+        <div className="col-md-12">
+          {/* Start Search Input */}
+          <div className="search-input">
+            <i className="fa-solid fa-magnifying-glass search-icon" />
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search For Properties ....."
+            />
+            <Link
+              href="properties-list"
+              className="btn btn-primary search-btn position-absolute top-50"
+            >
+              <i className="fa-solid fa-angle-right" />
+            </Link>
+          </div>
+          {/* /.End Search Input */}
         </div>
-        {/* /.End Search Input */}
-      </div>
-      <div className="col-md-4">
-        <div className="search-select">
-          <Select
-            options={options}
-            defaultValue={value}
-            onChange={setValue}
-            isSearchable={true}
-            placeholder="Location"
-            styles={customSelectStyle}
-          />
-          <i className="fa-solid fa-location-crosshairs search-icon" />
+        <div className="col-md-4">
+          <div className="search-select">
+            <Select
+              options={options}
+              defaultValue={value}
+              onChange={setValue}
+              isSearchable={true}
+              placeholder="Location"
+              styles={customSelectStyle}
+            />
+            <i className="fa-solid fa-location-crosshairs search-icon" />
+          </div>
         </div>
-      </div>
-      <div className="col-md-4">
-        <div className="search-select">
-          <Select
-            options={optionsTwo}
-            defaultValue={value}
-            onChange={setValue}
-            isSearchable={true}
-            placeholder="Property"
-            styles={customSelectStyle}
-          />
-          <i className="fa-solid fa-house fs-17 search-icon"></i>
+        <div className="col-md-4">
+          <div className="search-select">
+            <Select
+              options={optionsTwo}
+              defaultValue={value}
+              onChange={setValue}
+              isSearchable={true}
+              placeholder="Property"
+              styles={customSelectStyle}
+            />
+            <i className="fa-solid fa-house fs-17 search-icon"></i>
+          </div>
         </div>
-      </div>
-      <div className="col-md-4">
-        <div className="search-select">
-          <Select
-            options={optionsThree}
-            defaultValue={value}
-            onChange={setValue}
-            isSearchable={true}
-            placeholder="Rent"
-            styles={customSelectStyle}
-          />
-          <i className="fa-solid fa-sack-dollar fs-18 search-icon"></i>
+        <div className="col-md-4">
+          <div className="search-select">
+            <Select
+              options={optionsThree}
+              defaultValue={value}
+              onChange={setValue}
+              isSearchable={true}
+              placeholder="Rent"
+              styles={customSelectStyle}
+            />
+            <i className="fa-solid fa-sack-dollar fs-18 search-icon"></i>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </>
   );
 }
 

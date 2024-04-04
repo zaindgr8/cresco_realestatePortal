@@ -12,7 +12,7 @@ export default async function SectionHeader() {
             </div>
             {/* /. End Subtitle */}
             {/* Start Section Header title */}
-            <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
+            <h2 id="projects" className="h1 fw-semibold mb-3 section-header__title text-capitalize">
               We collaborate with
               <br />
               trusted developers.

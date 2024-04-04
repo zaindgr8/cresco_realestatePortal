@@ -2,7 +2,10 @@ import Link from "next/link";
 import AgentList from "../data/agent-list.json"
 export default async function AgentListData() {
   
-    
+const openWhatsApp = (phoneNumber) => {
+  window.open(`https://wa.me/${phoneNumber}`, "_blank");
+};
+   
     return (
         <div className="row g-4">
             {
@@ -50,11 +53,11 @@ export default async function AgentListData() {
                                     <div className="col-auto">
                                       <div className="d-flex align-items-center text-dark">
                                         <div className="flex-shrink-0">
-                                          <i className="fa-solid fa-chart-line fs-18" />
+                                          <i className="fa-solid fa-phone fs-18" />
                                         </div>
                                         <div className="flex-grow-1 fs-16 fw-medium ms-3">
-                                          Active Listings :{" "}
-                                          {agent.activeListings}
+                                          Contact :
+                                          {agent.phoneNumber}
                                         </div>
                                       </div>
                                     </div>

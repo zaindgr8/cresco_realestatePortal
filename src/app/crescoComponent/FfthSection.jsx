@@ -1,7 +1,11 @@
+"use client"
 import Link from 'next/link';
 import React from 'react'
 
 const FfthSection = () => {
+   const handleClickCeo = () => {
+     window.open(`https://wa.me/${+971585145243}`, "_blank");
+   };
   return (
     <div className="py-5 bg-gradient-primary">
       <div className="container pt-5 pb-4">
@@ -380,15 +384,15 @@ const FfthSection = () => {
         </div>
         <div className="text-center mt-5" data-aos="fade-up">
           {/* Start Button */}
-          {/* <Link
+          <button onClick={handleClickCeo}
             // href="properties-list"
             href="/"
             className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg d-inline-flex hstack gap-2"
           >
-            <span>Browse All Properties</span>
+            <span>Book Now</span>
             <span className="vr" />
             <i className="fa-arrow-right fa-solid fs-14" />
-          </Link> */}
+          </button>
           {/* /.End Button */}
         </div>
       </div>

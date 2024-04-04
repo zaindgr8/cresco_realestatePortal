@@ -1,5 +1,7 @@
+"use client"
 import Link from 'next/link';
-import React from 'react'
+import React, { useRef, useEffect } from "react";
+
 
 const Ssection = () => {
   return (
@@ -13,9 +15,11 @@ const Ssection = () => {
               data-aos="fade-down"
             >
               {/* Start Subtitle */}
+        
               <div className="bg-yellow-400 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
                 Agents Hub
               </div>
+
               {/* /. End Subtitle */}
               {/* Start Section Header title */}
               <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
@@ -44,7 +48,9 @@ const Ssection = () => {
                 type="button"
                 className="border-1 p-2 rounded-lg text-white hover:text-yellow-600 hover:bg-gray-700 bg-gray-900 mt-3 hstack gap-2"
               >
-                <span>View New Projects</span>
+                <Link href="#projects">
+           View New Projects
+                </Link>
                 <span className="vr" />
                 <i className="fa-arrow-right fa-solid fs-14" />
               </button>
@@ -58,7 +64,7 @@ const Ssection = () => {
               </h5>
 
               <Link
-                href="#"
+                href="#agents"
                 className="btn text-white bg-yellow-400 hover:bg-yellow-600 mt-3 d-inline-flex hstack gap-2 "
               >
                 <span>View Agents</span>

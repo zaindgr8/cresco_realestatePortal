@@ -53,9 +53,7 @@ export default async function AgentList() {
                     professionals <br /> ready to guide you through the world of
                     luxury properties in Dubai.
                   </div>
-                  {/* /.End Section Header Sub Title */}
                 </div>
-                {/*/. End Section Header */}
               </div>
             </div>
             {/* Start Agent Card */}
