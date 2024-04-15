@@ -53,7 +53,7 @@ const FfthSection = () => {
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
                 <img
-                  src="assets/img/properties/01.jpg"
+                  src="assets/img/properties/jvc.jpeg"
                   alt=""
                   className="img-fluid"
                 />
@@ -110,7 +110,7 @@ const FfthSection = () => {
               {/* Start Property Image */}
               <div className="property-img card-image-hover overflow-hidden">
                 <img
-                  src="assets/img/properties/02.jpg"
+                  src="assets/img/properties/creekharbour.jpeg"
                   alt=""
                   className="img-fluid"
                 />

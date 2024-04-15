@@ -1,4 +1,3 @@
-
 "use client"
 import { PiFacebookLogoFill } from "react-icons/pi";
 import { BiLogoInstagramAlt } from "react-icons/bi";
@@ -66,7 +65,6 @@ export default function Header() {
                   <img
                     className="h-20 w-[15vh] mb-2"
                     src="assets/img/clogo.png"
-                   
                   />
                 </Link>
               </div>
@@ -126,28 +124,62 @@ export default function Header() {
                   {/* End Collapse Close Button */}
                 </div>
                 {/* End Navbar Collapse Header */}
-                {/* <ul className="navbar-nav">
+                <ul className="navbar-nav ">
                   <li className="nav-item dropdown">
-                    <Link className="nav-link" href="#" role="button">
+                    <Link
+                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      href="#"
+                      role="button"
+                    >
                       Home
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="#">
+                    <Link
+                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      href="#"
+                    >
                       About Us
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="#">
-                      Contact
+                    <Link
+                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      href="#"
+                    >
+                      Team
                     </Link>
                   </li>
-                </ul> */}
+                  <li className="nav-item">
+                    <Link
+                      className="text-yellow-600  hover:text-yellow-500 nav-link"
+                      href="#"
+                    >
+                      Projects
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      href="#"
+                    >
+                      Properties
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      href="#"
+                    >
+                      Contact Us
+                    </Link>
+                  </li>
+                </ul>
               </div>
               {/*  /. End Navbar Collapse */}
               <div className="d-flex gap-1 ms-lg-5">
                 {/* Start Cart Button */}
-                <Link
+                {/* <Link
                   href="/"
                   data-bs-toggle="modal"
                   data-bs-target="#cartEmpty"
@@ -156,7 +188,7 @@ export default function Header() {
                   <span className="ms-2 text-gray-500 text-md">
                     CRESCO Real Estate
                   </span>
-                </Link>
+                </Link> */}
                 {/* For Mobile */}
                 <Link
                   href="/"

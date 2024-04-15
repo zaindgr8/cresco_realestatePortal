@@ -3118,7 +3118,7 @@ textarea.form-control {
 
 .blog-carousel.owl-theme .owl-nav [class*="owl-"],
 .masonry-carousel.owl-theme .owl-nav [class*="owl-"] {
-  color: #fff;
+  color: #ffc107; /* yellow-500 */
   padding: 4px 7px;
   display: inline-block;
   cursor: pointer;
@@ -3138,10 +3138,11 @@ textarea.form-control {
   border-radius: 0;
   line-height: 60px;
   margin: 0;
-  background-color: var(--bs-primary);
+  background-color: #202020; /* gray-900 */
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: linear;
 }
+
 
 .blog-carousel.owl-theme .owl-nav [class*="owl-"]:focus,
 .masonry-carousel.owl-theme .owl-nav [class*="owl-"]:focus {

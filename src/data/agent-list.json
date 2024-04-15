@@ -44,5 +44,35 @@
         "sell": "633",
         "commercial": "10",
         "phoneNumber":"+971581384010"
-    }
+    },
+      {
+        "id": 5,
+        "img": "assets/img/avatar/ghznfr.jpeg",
+        "name": "Mr Ghazanfar",
+        "designation": "Sales Executive",
+        "description": "Having navigated the dynamic real estate landscape of Dubai for years, he possesses an in-depth understanding of market trends.",
+        "activeListings": "1",
+        "experience": "2017",
+        "areas": "Deira, Meydan",
+        "language": "English, Urdu",
+        "rent": "193",
+        "sell": "633",
+        "commercial": "10",
+        "phoneNumber": "+971551594520"
+      },
+        {
+          "id": 6,
+          "img": "assets/img/avatar/rehan.jpeg",
+          "name": "Mr Rehan",
+          "designation": "Sales Consultant",
+          "description": "He is known for his dedication to client satisfaction, going above and beyond to ensure that every transaction is smooth and successful. ",
+          "activeListings": "1",
+          "experience": "2023",
+          "areas": "Creek Harbour, Business Bay",
+          "language": "English, Arabic",
+          "rent": "193",
+          "sell": "633",
+          "commercial": "10",
+          "phoneNumber": "+1(917)226-0683"
+        }
 ]
