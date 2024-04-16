@@ -1,8 +1,10 @@
 import Dropdown from '@/components/form-control-two';
-
 import React from 'react'
 import Slideshow from './slideshow';
+import localFont from "next/font/local";
 
+const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
+const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
 
 const FSection = () => {
   return (
@@ -30,9 +32,10 @@ const FSection = () => {
               {/* <p class="title-sm">BEAT TRAFFIC JAMS AND CLINIC QUEUES.</p> */}
               <div className=" bg-yellow-500 w-[35vh] font-bold text-white d-inline-block fw-medium mb-3 text-lg rounded-pill section-header__subtitle text-capitalize">
                 Cresco Real Estate
+                
               </div>
               <h1 className=" hero-header_title text-white fw-bold mb-5 text-5xl leading-[8vh]">
-                <span className='font-roboto'> Find Your Dream Property</span>
+                <span className={roboto.className} > Find Your Dream Property</span>
               </h1>
               {/* Start Main Search Content */}
               <Dropdown />

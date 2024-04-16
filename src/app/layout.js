@@ -4,19 +4,26 @@ import './globals.css'
 import { Inter_Tight } from 'next/font/google'
 import { AOSInit } from './aoshook/aoshook';
 import ImportBs from './importBs';
-import localfont from "next/font/local"
+import localFont from "next/font/local"
+import { Open_Sans, Roboto_Mono } from "next/font/google";
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-opensans",
+});
+
+const robotoMono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto-mono",
+});
 
 const inter = Inter_Tight({ subsets: ['latin'] })
 
-const roboto= localfont({
-  src:[
-    {
-      path:"../../public/fonts/Roboto-Black.ttf",
-      weight:"700"
-    },
-  ],
-  variable:"--font--roboto"
-})
+const myFont = localFont({ 
+src: "./fonts/Roboto-Black.ttf", 
+variable:"--font-myfont"})
 
 export const metadata = {
   title: 'CRESCO- Your Trust is our priority!',
@@ -31,12 +38,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
  
   return (
-    <html lang="en" className={`${roboto.variable} font-sansmono`}>
-      <AOSInit/>
-      <body className={inter.className}>  
-      <ImportBs/>
+    <html
+      lang="en"
+      className={`${myFont.className}  ${openSans.variable} ${robotoMono.variable} font-sans`}
+    >
+      <AOSInit />
+      <body>
+        <ImportBs />
         <div>{children}</div>
       </body>
     </html>
-  )
+  );
 }

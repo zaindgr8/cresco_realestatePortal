@@ -8,9 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        roboto:["var(--font-roboto)"]
-      }
+       fontFamily: {
+        sans: ["var(--font-opensans)"],
+        mono: ["var(--font-roboto-mono)"],
+        my: ["var(--font-myfont)"]
+      },
     },
   },
   plugins: [],
