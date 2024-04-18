@@ -1,7 +1,4 @@
 "use client"
-import { PiFacebookLogoFill } from "react-icons/pi";
-import { BiLogoInstagramAlt } from "react-icons/bi";
-import { AiFillYoutube } from "react-icons/ai";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -33,8 +30,13 @@ const links = [
     { href: '/505', text: '505 Page' },
     { href: '/style-guide', text: 'Style Guide' },
   ];
+  import localFont from "next/font/local";
+
+  const stroma = localFont({ src: "./fonts/Stroma-Regular.ttf" });
+  const roboto = localFont({ src: "./fonts/Roboto-Black.ttf" });
   
 export default function Header() {
+  
     const [hasLogo, setHasLogo] = useState(false);
     const path=usePathname()
     useEffect(() => {
@@ -46,18 +48,17 @@ export default function Header() {
                 setHasLogo(false);
             }
         };
-
         window.addEventListener('scroll', handleScroll);
-
         // Clean up the event listener when the component unmounts
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
     return (
       <>
         {/* Start Topbar */}
-        <div className="d-none d-lg-block topbar-bg bg-gray-900 text-white">
+        {/* <div className="d-none d-lg-block topbar-bg bg-gray-900 text-white">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-4 col-lg-3 col-xl-6">
@@ -75,26 +76,36 @@ export default function Header() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* /.End Topbar */}
         {/* Start Navbar */}
         <div
+          // className={
+          //   hasLogo
+          //     ? "has-logo navbar-wrap sticky-top"
+          //     : "no-logo navbar-wrap sticky-top"
+          // }
           className={
             hasLogo
-              ? "has-logo navbar-wrap sticky-top"
+              ? "has-logo navbar-wrap "
               : "no-logo navbar-wrap sticky-top"
           }
         >
-          <div className="container-lg nav-container position-relative">
-            <nav className="custom-navbar navbar navbar-expand-lg">
+          <div className="container-lg mt-5 nav-container position-absolute ">
+            <nav className="custom-navbar  navbar-expand-lg ml-16">
               {/* Start Navbar Brand */}
-              <Link
-                className=" border-end navbar-brand pe-3 pe-sm-4 py-0"
-                href="/"
-              >
-                <img className="logo-dark" src="assets/img/a3.png" alt="" />
-                <img className="logo-white" src="assets/img/a3.png" alt="" />
-              </Link>
+              {/* <Link className="navbar-brand pe-3 pe-sm-4 py-0" href="/">
+                <img
+                  className="logo-dark mb-3"
+                  src="assets/img/logo2.png"
+                  alt=""
+                />
+                <img
+                  className="logo-white mb-3"
+                  src="assets/img/logo2.png"
+                  alt=""
+                />
+              </Link> */}
               {/* End Navbar Brand */}
               {/* Start Navbar Collapse */}
               <div className="navbar-collapse" id="navbarSupportedContent">
@@ -124,51 +135,66 @@ export default function Header() {
                   {/* End Collapse Close Button */}
                 </div>
                 {/* End Navbar Collapse Header */}
-                <ul className="navbar-nav ">
-                  <li className="nav-item dropdown">
+                <ul className="items-center justify-center container flex gap-x-5">
+                  <li className={stroma.className}>
                     <Link
-                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      className="text-xl text-white hover:text-yellow-500"
                       href="#"
                       role="button"
                     >
                       Home
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li className={stroma.className}>
                     <Link
-                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      className="text-xl text-white hover:text-yellow-500"
                       href="#"
                     >
                       About Us
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li className={stroma.className}>
                     <Link
-                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      className="text-xl text-white hover:text-yellow-500"
                       href="#"
                     >
                       Team
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li>
+                    <Link className="navbar-brand pe-3 pe-sm-4 py-0" href="/">
+                      <img
+                        width={100}
+                        className="logo-dark"
+                        src="assets/img/logo2.png"
+                        alt=""
+                      />
+                      <img
+                        className="logo-white"
+                        src="assets/img/logo2.png"
+                        alt=""
+                      />
+                    </Link>
+                  </li>
+                  <li className={stroma.className}>
                     <Link
-                      className="text-yellow-600  hover:text-yellow-500 nav-link"
+                      className="text-white text-xl  hover:text-yellow-500 "
                       href="#"
                     >
                       Projects
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li className={stroma.className}>
                     <Link
-                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      className=" text-white text-xl hover:text-yellow-500"
                       href="#"
                     >
                       Properties
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li className={stroma.className}>
                     <Link
-                      className="nav-link text-yellow-600 hover:text-yellow-500"
+                      className="text-xl text-white hover:text-yellow-500"
                       href="#"
                     >
                       Contact Us
@@ -196,11 +222,7 @@ export default function Header() {
                 >
                   <i className="fa-solid fa-cart-shopping"></i>
                 </Link>
-                {/*  /. End Cart Button */}
-                {/* Start Login & Signup Button */}
 
-                {/* /. End Login & Signup Button */}
-                {/*  Start Navbar Toggler Buton */}
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -212,13 +234,10 @@ export default function Header() {
                 >
                   <span className="navbar-toggler-icon"></span>
                 </button>
-                {/*  /. End Navbar Toggler Buton */}
               </div>
             </nav>
           </div>
-          {/* /.End of navbar */}
         </div>
-        {/* /.End of navbar */}
       </>
     );
 }

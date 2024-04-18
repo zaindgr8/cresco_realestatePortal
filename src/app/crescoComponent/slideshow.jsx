@@ -3,8 +3,6 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 
-
-
 const slides = [
   {
     image: "/s1a.jpg",

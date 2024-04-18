@@ -2,6 +2,10 @@
 import React, { useState } from 'react';
 import dynamic from "next/dynamic";
 import Link from 'next/link';
+import localFont from "next/font/local";
+
+const stroma = localFont({ src: "./fonts/Stroma-Regular.ttf" });
+const roboto = localFont({ src: "./fonts/Roboto-Black.ttf" });
 
 const Select = dynamic(() => import("react-select"), {
   ssr: false,
@@ -48,62 +52,47 @@ function Dropdown() {
   return (
     // Start form
     <form className="row g-2 main-search">
-      <div className="col-md-7">
-        {/* Start Select Field */}
-        <div className='row g-2'>
-          <div className="col-md-4">
-            <div className="search-select">
-              <Select
-                id='test'
-                options={options}
-                defaultValue={value}
-                onChange={setValue}
-                isSearchable={true}
-                placeholder="Location"
-                styles={customSelectStyle}
-              />
-              <i className="fa-solid fa-location-crosshairs search-icon" />
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="search-select">
-              <Select
-                options={optionsTwo}
-                defaultValue={value}
-                onChange={setValue}
-                isSearchable={true}
-                styles={customSelectStyle}
-                placeholder="Property"
-              />
-              <i className="fa-solid fa-house fs-17 search-icon"></i>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="search-select">
-              <Select
-                options={optionsThree}
-                defaultValue={value}
-                onChange={setValue}
-                isSearchable={true}
-                styles={customSelectStyle}
-                placeholder="Rent"
-              />
-              <i className="fa-solid fa-sack-dollar fs-18 search-icon"></i>
-
-            </div>
-          </div>
+      <div className="col-md-4">
+        <div className="search-select">
+          <span className={roboto.className}>
+            <Select
+              id="test"
+              options={options}
+              defaultValue={value}
+              onChange={setValue}
+              isSearchable={true}
+              placeholder="Location"
+              styles={customSelectStyle}
+            />
+          </span>
+          <i className="fa-solid fa-location-crosshairs search-icon" />
         </div>
-        {/* End Select Field */}
       </div>
-      <div className="col-md-5">
-        {/* Start Search Input */}
+
+      <div className="col-md-4">
+        {" "}
+        <div className="search-select">
+          <span className={roboto.className}>
+            <Select
+              options={optionsTwo}
+              defaultValue={value}
+              onChange={setValue}
+              isSearchable={true}
+              styles={customSelectStyle}
+              placeholder="Property"
+            />
+          </span>
+          <i className="fa-solid fa-house fs-17 search-icon"></i>
+        </div>
+      </div>
+
+      <div className="col-md-4">
+        {" "}
         <div className="search-input">
           <i className="fa-solid fa-magnifying-glass search-icon" />
-          <input
-            type="text"
-            className="form-control"
-            placeholder="Search For Properties ....."
-          />
+          <span className={roboto.className}>
+            <input type="text" className="form-control" placeholder="Budget" />
+          </span>
           <Link
             // href="properties-list"
             href="/"
@@ -112,9 +101,9 @@ function Dropdown() {
             <i className="fa-solid fa-angle-right" />
           </Link>
         </div>
-        {/* /.End Search Input */}
       </div>
     </form>
+
     // End Form
   );
 }
