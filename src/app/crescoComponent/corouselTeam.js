@@ -45,7 +45,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/az.jpg"
+              src="assets/img/avatar/1.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -75,7 +75,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/dua.jpeg"
+              src="assets/img/avatar/2.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -84,35 +84,7 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Dua Reina</Link>
-          </h5>
-          <div className="flex items-center gap-x-2">
-            <PiBriefcaseFill />
-            Sales Executive
-          </div>
-          <div className="text-sm flex gap-x-2 items-center">
-            <FaPhone />
-            +971544834967
-          </div>
-        </div>
-        {/* /.End Avatar Info */}
-      </div>
-      {/* /.End Grid Post */}
-      {/* Start Grid Post */}
-      <div className="team-member">
-        <div className="member-header overflow-hidden position-relative rounded-4">
-          <div className="w-full h-[45vh] overflow-hidden">
-            <img
-              src="assets/img/avatar/gulli.jpg"
-              className="w-full h-full object-cover"
-              alt=""
-            />
-          </div>
-        </div>
-        {/* Start Avatar Info */}
-        <div className="flex items-center flex-col">
-          <h5 className="mt-3 mb-1">
-            <Link href="/">Gulraiz Naveed</Link>
+            <Link href="/">Sabrine Touati</Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
@@ -120,7 +92,7 @@ const Carousel = () => {
           </div>
           <div className="text-sm flex gap-x-2 items-center">
             <FaPhone />
-            +971551379008
+            +971545666510
           </div>
         </div>
         {/* /.End Avatar Info */}
@@ -131,92 +103,7 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/mrgo.png"
-              className="h-full w-full object-cover"
-              alt=""
-            />
-          </div>
-        </div>
-        {/* Start Avatar Info */}
-        <div className="flex items-center flex-col">
-          <h5 className="mt-3 mb-1">
-            <Link href="/">Margault Pearl</Link>
-          </h5>
-          <div className="flex items-center gap-x-2">
-            <PiBriefcaseFill />
-            Off-Plan Consultant
-          </div>
-          <div className="text-sm flex gap-x-2 items-center">
-            <FaPhone />
-            +971521021429
-          </div>
-        </div>
-        {/* /.End Avatar Info */}
-      </div>
-      {/* /.End Grid Post */}
-      {/* Start Grid Post */}
-      <div className="team-member">
-        <div className="member-header overflow-hidden position-relative rounded-4">
-          <div className="w-full h-[45vh] overflow-hidden">
-            <img
-              src="assets/img/avatar/wld.jpeg"
-              className="w-full h-full object-cover"
-              alt=""
-            />
-          </div>
-        </div>
-        {/* Start Avatar Info */}
-        <div className="flex items-center flex-col">
-          <h5 className="mt-3 mb-1">
-            <Link href="/">Waleed Khan</Link>
-          </h5>
-          <div className="flex items-center gap-x-2">
-            <PiBriefcaseFill />
-            Sales Consultant
-          </div>
-          <div className="text-sm flex gap-x-2 items-center">
-            <FaPhone />
-            +971521543532
-          </div>
-        </div>
-        {/* /.End Avatar Info */}
-      </div>
-      {/* /.End Grid Post */}
-      {/* Start Grid Post */}
-      <div className="team-member">
-        <div className="member-header overflow-hidden position-relative rounded-4">
-          <div className="w-full h-[45vh] overflow-hidden">
-            <img
-              src="assets/img/avatar/umer.jpg"
-              className="w-full h-full object-cover"
-              alt=""
-            />
-          </div>
-        </div>
-        {/* Start Avatar Info */}
-        <div className="flex items-center flex-col">
-          <h5 className="mt-3 mb-1">
-            <Link href="/">Omer Akram</Link>
-          </h5>
-          <div className="flex items-center gap-x-2">
-            <PiBriefcaseFill />
-            Sales Consultant
-          </div>
-          <div className="text-sm flex gap-x-2 items-center">
-            <FaPhone />
-            +971585251995
-          </div>
-        </div>
-        {/* /.End Avatar Info */}
-      </div>
-      {/* /.End Grid Post */}
-
-      {/* Start Grid Post */}
-      <div className="team-member">
-        <div className="member-header overflow-hidden position-relative rounded-4">
-          <div className="w-full h-[45vh] overflow-hidden">
-            <img
-              src="assets/img/avatar/umer2.png"
+              src="assets/img/avatar/3.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -244,7 +131,35 @@ const Carousel = () => {
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[45vh] overflow-hidden">
             <img
-              src="assets/img/avatar/shmr1.png"
+              src="assets/img/avatar/4.jpg"
+              className="h-full w-full object-cover"
+              alt=""
+            />
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+        <div className="flex items-center flex-col">
+          <h5 className="mt-3 mb-1">
+            <Link href="/">Margault Pearl</Link>
+          </h5>
+          <div className="flex items-center gap-x-2">
+            <PiBriefcaseFill />
+            Off-Plan Consultant
+          </div>
+          <div className="text-sm flex gap-x-2 items-center">
+            <FaPhone />
+            +971521021429
+          </div>
+        </div>
+        {/* /.End Avatar Info */}
+      </div>
+      {/* /.End Grid Post */}
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[45vh] overflow-hidden">
+            <img
+              src="assets/img/avatar/5.jpg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -253,15 +168,100 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Sabrine Touti</Link>
+            <Link href="/">Waleed Khan</Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
-            Sales Manager
+            Sales Consultant
           </div>
           <div className="text-sm flex gap-x-2 items-center">
             <FaPhone />
-            +971542188244
+            +971521543532
+          </div>
+        </div>
+        {/* /.End Avatar Info */}
+      </div>
+      {/* /.End Grid Post */}
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[45vh] overflow-hidden">
+            <img
+              src="assets/img/avatar/6.jpg"
+              className="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+        <div className="flex items-center flex-col">
+          <h5 className="mt-3 mb-1">
+            <Link href="/">Doua Reina</Link>
+          </h5>
+          <div className="flex items-center gap-x-2">
+            <PiBriefcaseFill />
+            Sales Executive
+          </div>
+          <div className="text-sm flex gap-x-2 items-center">
+            <FaPhone />
+            +971544834967
+          </div>
+        </div>
+        {/* /.End Avatar Info */}
+      </div>
+      {/* /.End Grid Post */}
+
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[45vh] overflow-hidden">
+            <img
+              src="assets/img/avatar/7.jpg"
+              className="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+        <div className="flex items-center flex-col">
+          <h5 className="mt-3 mb-1">
+            <Link href="/">Osama Khalifa</Link>
+          </h5>
+          <div className="flex items-center gap-x-2">
+            <PiBriefcaseFill />
+            Sales Executive
+          </div>
+          <div className="text-sm flex gap-x-2 items-center">
+            <FaPhone />
+            +971527608166
+          </div>
+        </div>
+        {/* /.End Avatar Info */}
+      </div>
+      {/* /.End Grid Post */}
+      {/* Start Grid Post */}
+      <div className="team-member">
+        <div className="member-header overflow-hidden position-relative rounded-4">
+          <div className="w-full h-[45vh] overflow-hidden">
+            <img
+              src="assets/img/avatar/8.jpg"
+              className="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+        </div>
+        {/* Start Avatar Info */}
+        <div className="flex items-center flex-col">
+          <h5 className="mt-3 mb-1">
+            <Link href="/">Shifa</Link>
+          </h5>
+          <div className="flex items-center gap-x-2">
+            <PiBriefcaseFill />
+            Sales Executive
+          </div>
+          <div className="text-sm flex gap-x-2 items-center">
+            <FaPhone />
+            +971525347803
           </div>
         </div>
         {/* /.End Avatar Info */}

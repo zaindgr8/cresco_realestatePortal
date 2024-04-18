@@ -1,8 +1,10 @@
 "use client"
-import Link from 'next/link';
 import React from 'react'
 import Corousel from "./corouselTeam"
+import localFont from "next/font/local";
 
+const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
+const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -28,20 +30,22 @@ const TSection = () => {
                   id="agents"
                   className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900"
                 >
-                  Agents
+                  <span className={roboto.className}>Agents</span>
                 </div>
                 {/* /. End Subtitle */}
                 {/* Start Section Header title */}
                 <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-                  Meet Our Realtors
+                  <span className={stroma.className}>Meet Our Realtors</span>
                 </h2>
                 {/* /.End Section Header Title */}
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
-                  Discover luxury real estate in Dubai with our expert team.
-                  Specializing in opulent living spaces
-                  <br className="d-none d-lg-block" /> and trusted projects, we
-                  offer transparency, integrity, and excellence.
+                  <p className={roboto.className}>
+                    Discover luxury real estate in Dubai with our expert team.
+                    Specializing in opulent living spaces
+                    <br className="d-none d-lg-block" /> and trusted projects,
+                    we offer transparency, integrity, and excellence.
+                  </p>
                 </div>
                 {/* /.End Section Header Sub Title */}
               </div>
@@ -50,9 +54,9 @@ const TSection = () => {
           </div>
 
           <Corousel />
-        
+
           {/* Start Button */}
-         
+
           {/* /.End Button */}
         </div>
       </div>
