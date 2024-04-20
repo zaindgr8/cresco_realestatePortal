@@ -1,6 +1,5 @@
 "use client"
 import Link from 'next/link';
-import React from 'react'
 import localFont from "next/font/local";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
@@ -18,7 +17,7 @@ const FfthSection = () => {
             <div className="section-header text-center mb-5">
               {/* Start Subtitle */}
               <div className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-                Featured Properties
+                <span className={roboto.className} >Featured Properties</span>
               </div>
               {/* /. End Subtitle */}
               {/* Start Section Header title */}

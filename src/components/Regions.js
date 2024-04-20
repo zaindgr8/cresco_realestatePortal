@@ -34,7 +34,7 @@ export default async function Regions() {
                     {/* <span className="d-none d-md-block d-xl-none d-xxl-block">
                         {region.properties}
                       </span> */}
-                    <div className="svg-wrap">
+                    {/* <div className="svg-wrap">
                       <svg
                         width="28px"
                         height="12px"
@@ -58,7 +58,7 @@ export default async function Regions() {
                           </g>
                         </g>
                       </svg>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </Link>
