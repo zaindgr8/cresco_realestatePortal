@@ -39,7 +39,7 @@ const CeoMessage = () => {
         </div>
       </div>
 
-      <div className="col-md-12 col-lg-5 ps-xxl-5">
+      <div className="col-md-12 col-lg-5 ps-xxl-5" id='getintouch'>
         <div className="text-block">
           <h6 className="fs-14 fw-bold heading-sm l-spacing-1 position-relative text-gray-900 text-uppercase">
             CEO Message

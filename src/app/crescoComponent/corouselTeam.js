@@ -5,6 +5,10 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Link from "next/link";
 import { FaPhone } from "react-icons/fa6";
 import { PiBriefcaseFill } from "react-icons/pi";
+import localFont from "next/font/local";
+
+const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
+const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -55,7 +59,9 @@ const Carousel = () => {
 
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Mohammad Azam Tariq</Link>
+            <Link href="/">
+              <span className={stroma.className}>Mohammad Azam Tariq</span>
+            </Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
@@ -84,7 +90,9 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Sabrine Touati</Link>
+            <Link href="/">
+              <span className={stroma.className}>Sabrine Touati</span>
+            </Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
@@ -112,7 +120,9 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Omer Aladheem</Link>
+            <Link href="/">
+              <span className={stroma.className}>Omer Aladheem</span>
+            </Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
@@ -140,7 +150,9 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Margault Pearl</Link>
+            <Link href="/">
+              <span className={stroma.className}>Margault Pearl</span>
+            </Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
@@ -168,7 +180,9 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Waleed Khan</Link>
+            <Link href="/">
+              <span className={stroma.className}>Waleed Khan</span>
+            </Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
@@ -196,7 +210,9 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Doua Reina</Link>
+            <Link href="/">
+              <span className={stroma.className}>Doua Reina</span>
+            </Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
@@ -225,7 +241,9 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Osama Khalifa</Link>
+            <Link href="/">
+              <span className={stroma.className}>Osama Khalifa</span>
+            </Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />
@@ -253,7 +271,9 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">Shifa</Link>
+            <Link href="/">
+              <span className={stroma.className}>Shifa</span>
+            </Link>
           </h5>
           <div className="flex items-center gap-x-2">
             <PiBriefcaseFill />

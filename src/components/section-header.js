@@ -12,7 +12,7 @@ export default async function SectionHeader() {
         <div className="section-header text-center mb-5" data-aos="fade-down">
           {/* Start Subtitle */}
           <div className="bg-yellow-400 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-            <span className={roboto.className}>View Our Collection</span>
+            <span id="projects" className={roboto.className}>View Our Collection</span>
           </div>
           {/* /. End Subtitle */}
           {/* Start Section Header title */}

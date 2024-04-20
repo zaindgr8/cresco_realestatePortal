@@ -20,9 +20,10 @@ export default function HomeTwo() {
         <Ssection /> 
         {/* //Projects */}
         <Frthsection />
+        {/* //Properties */}
         <FfthSection />
-        <Testimonial />
-        <CeoMessage />
+         <Testimonial />
+        <CeoMessage /> 
       </Layout>
     </>
   );

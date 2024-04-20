@@ -37,7 +37,9 @@ const TSection = () => {
                 {/* /. End Subtitle */}
                 {/* Start Section Header title */}
                 <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-                  <span className={stroma.className}>Meet Our Realtors</span>
+                  <span className={stroma.className}>
+                    Meet the Faces Behind
+                  </span>
                 </h2>
                 {/* /.End Section Header Title */}
                 {/* Start Section Header Sub Title */}

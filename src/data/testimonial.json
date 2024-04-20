@@ -38,25 +38,5 @@
     "name": "Olga Petrovna",
     "mention": "@olgapetrovna",
     "icon": ""
-  },
-  {
-    "id": 5,
-    "img": "assets/img/avatar/rm.jpg",
-    "ratings": "(4.8/5)",
-    "title": "Professionalism at Its Best!",
-    "description": "The team at this real estate company provided top-notch service. They were professional, responsive, and went above and beyond to meet our needs. Thank you!",
-    "name": "Mohammed Hassan",
-    "mention": "@mhassan",
-    "icon": ""
-  },
-  {
-    "id": 6,
-    "img": "assets/img/avatar/aw.jpg",
-    "ratings": "(4.8/5)",
-    "title": "Excellent Experience!",
-    "description": "Our experience with this company was excellent from start to finish. They listened to our preferences and found us the perfect property. Couldn't be happier!",
-    "name": "Yelena Ivanova",
-    "mention": "@yivanova",
-    "icon": ""
   }
 ]

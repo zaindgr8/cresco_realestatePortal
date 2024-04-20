@@ -1,13 +1,9 @@
-"use client"
-import Link from 'next/link';
 import localFont from "next/font/local";
+import Link from "next/link";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
 
 const FfthSection = () => {
-   const handleClickCeo = () => {
-     window.open(`https://wa.me/${+971585145243}`, "_blank");
-   };
   return (
     <div className="py-5 bg-gradient-primary">
       <div className="container pt-5 pb-4">
@@ -17,30 +13,39 @@ const FfthSection = () => {
             <div className="section-header text-center mb-5">
               {/* Start Subtitle */}
               <div className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-                <span className={roboto.className} >Featured Properties</span>
+                <span className={roboto.className}>Featured Properties</span>
               </div>
               {/* /. End Subtitle */}
               {/* Start Section Header title */}
 
               <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-                Take a Look at Our Assortments
+                <span className={stroma.className}>
+                  Take a Look at Our Assortments
+                </span>
               </h2>
 
               {/* /.End Section Header Title */}
               {/* Start Section Header Sub Title */}
               <div className="sub-title fs-16">
-                Explore our extensive inventory of properties, from cozy starter{" "}
-                <br />
-                homes to luxurious estates.Begin your journey today and discover
-                <br />
-                the perfect place to call home.
+                <span className={roboto.className}>
+                  Explore our extensive inventory of properties, from cozy
+                  starter <br />
+                  homes to luxurious estates.Begin your journey today and
+                  discover
+                  <br />
+                  the perfect place to call home.
+                </span>
               </div>
               {/* /.End Section Header Sub Title */}
             </div>
             {/*/. End Section Header */}
           </div>
         </div>
-        <div className="row g-4 justify-content-center">
+        <div className="row g-4 justify-content-center" id="properties">
+          <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
+            <span className={stroma.className}>Rent Properties</span>
+          </h2>
+
           <div
             className="col-sm-6 col-lg-4 col-xl-3 d-flex"
             data-aos="fade-up"
@@ -73,8 +78,12 @@ const FfthSection = () => {
                   <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">JVC</h4>
-                <div className="card-property-description mb-3">Dubai, UAE</div>
+                <h4 className="property-card-title mb-3">
+                  <span className={stroma.className}>JVC</span>
+                </h4>
+                <div className="card-property-description mb-3">
+                  <span className={roboto.className}>Dubai, UAE</span>
+                </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -97,6 +106,7 @@ const FfthSection = () => {
             </div>
             {/* /. End Card Property */}
           </div>
+
           <div
             className="col-sm-6 col-lg-4 col-xl-3 d-flex"
             data-aos="fade-up"
@@ -128,8 +138,12 @@ const FfthSection = () => {
                   <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">Creek Harbour</h4>
-                <div className="card-property-description mb-3">Dubai, UAE</div>
+                <h4 className="property-card-title mb-3">
+                  <span className={stroma.className}>Creek Harbour</span>
+                </h4>
+                <div className="card-property-description mb-3">
+                  <span className={roboto.className}>Dubai, UAE</span>
+                </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -152,6 +166,7 @@ const FfthSection = () => {
             </div>
             {/* /. End Card Property */}
           </div>
+
           <div
             className="col-sm-6 col-lg-4 col-xl-3 d-flex"
             data-aos="fade-up"
@@ -183,8 +198,12 @@ const FfthSection = () => {
                   <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">Dubai Science Park</h4>
-                <div className="card-property-description mb-3">Dubai, UAE</div>
+                <h4 className="property-card-title mb-3">
+                  <span className={stroma.className}>Dubai Science Park</span>
+                </h4>
+                <div className="card-property-description mb-3">
+                  <span className={roboto.className}>Dubai, UAE</span>
+                </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -207,59 +226,7 @@ const FfthSection = () => {
             </div>
             {/* /. End Card Property */}
           </div>
-          <div
-            className="col-sm-6 col-lg-4 col-xl-3 d-flex"
-            data-aos="fade-up"
-            data-aos-delay={600}
-          >
-            {/* Start Card Property */}
-            <div className="border-0 card card-property rounded-3 shadow w-100 flex-fill overflow-hidden">
-              {/* Start Card Link */}
-              <Link href="/" className="card-link" />
-              {/* /. End Card Link */}
-              {/* Start Property Image */}
-              <div className="property-img card-image-hover overflow-hidden">
-                <img
-                  src="assets/img/properties/sportscity.jpeg"
-                  alt=""
-                  className="img-fluid"
-                />
-                <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
-                  For Sale
-                </div>
-              </div>
-              {/* /. End Property Image */}
-              <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
-                {/* Start Card Property Price */}
-                <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-gray-900">850,000 AED</h3>
-                  <div> / full-payment</div>
-                </div>
-                {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">Dubai Sports City</h4>
-                <div className="card-property-description mb-3">Dubai, UAE</div>
-                {/* Start Card Property Facilities */}
-                <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
-                  <div className="">
-                    <i className="fa-solid fa-bed text-dark me-1" />
-                    <span>1 Beds</span>
-                  </div>
-                  <span className="vr" />
-                  <div className="">
-                    <i className="fa-solid fa-bath text-dark me-1" />
-                    <span>2 Baths</span>
-                  </div>
-                  <span className="vr" />
-                  <div className="">
-                    <i className="fa-solid fa-vector-square text-dark me-1" />
-                    <span>704 Sqft</span>
-                  </div>
-                </div>
-                {/* /. End Card Property Facilities */}
-              </div>
-            </div>
-            {/* /. End Card Property */}
-          </div>
+
           <div
             className="col-sm-6 col-lg-4 col-xl-3 d-flex"
             data-aos="fade-up"
@@ -291,8 +258,12 @@ const FfthSection = () => {
                   <div> /month</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">Arjan</h4>
-                <div className="card-property-description mb-3">Dubai, UAE</div>
+                <h4 className="property-card-title mb-3">
+                  <span className={stroma.className}>Arjan</span>
+                </h4>
+                <div className="card-property-description mb-3">
+                  <span className={roboto.className}>Dubai, UAE</span>
+                </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -315,6 +286,15 @@ const FfthSection = () => {
             </div>
             {/* /. End Card Property */}
           </div>
+
+          <br />
+          <br />
+
+          <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
+            <span className={stroma.className}>Sale Properties</span>
+          </h2>
+          <br />
+          <br />
 
           <div
             className="col-sm-6 col-lg-4 col-xl-3 d-flex"
@@ -347,8 +327,12 @@ const FfthSection = () => {
                   <div> / full-payment</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">Marina</h4>
-                <div className="card-property-description mb-3">Dubai, UAE</div>
+                <h4 className="property-card-title mb-3">
+                  <span className={stroma.className}>Marina</span>
+                </h4>
+                <div className="card-property-description mb-3">
+                  <span className={roboto.className}>Dubai, UAE</span>
+                </div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -371,11 +355,69 @@ const FfthSection = () => {
             </div>
             {/* /. End Card Property */}
           </div>
+
+          <div
+            className="col-sm-6 col-lg-4 col-xl-3 d-flex"
+            data-aos="fade-up"
+            data-aos-delay={600}
+          >
+            {/* Start Card Property */}
+            <div className="border-0 card card-property rounded-3 shadow w-100 flex-fill overflow-hidden">
+              {/* Start Card Link */}
+              <Link href="/" className="card-link" />
+              {/* /. End Card Link */}
+              {/* Start Property Image */}
+              <div className="property-img card-image-hover overflow-hidden">
+                <img
+                  src="assets/img/properties/sportscity.jpeg"
+                  alt=""
+                  className="img-fluid"
+                />
+                <div className="bg-gray-900 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                  For Sale
+                </div>
+              </div>
+              {/* /. End Property Image */}
+              <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
+                {/* Start Card Property Price */}
+                <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
+                  <h3 className="m-0 fw-semibold text-gray-900">850,000 AED</h3>
+                  <div> / full-payment</div>
+                </div>
+                {/* /. End Card Property Price */}
+                <h4 className="property-card-title mb-3">
+                  <span className={stroma.className}>Dubai Sports City</span>
+                </h4>
+                <div className="card-property-description mb-3">
+                  <span className={roboto.className}>Dubai, UAE</span>
+                </div>
+                {/* Start Card Property Facilities */}
+                <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
+                  <div className="">
+                    <i className="fa-solid fa-bed text-dark me-1" />
+                    <span>1 Beds</span>
+                  </div>
+                  <span className="vr" />
+                  <div className="">
+                    <i className="fa-solid fa-bath text-dark me-1" />
+                    <span>2 Baths</span>
+                  </div>
+                  <span className="vr" />
+                  <div className="">
+                    <i className="fa-solid fa-vector-square text-dark me-1" />
+                    <span>704 Sqft</span>
+                  </div>
+                </div>
+                {/* /. End Card Property Facilities */}
+              </div>
+            </div>
+            {/* /. End Card Property */}
+          </div>
         </div>
+
         <div className="text-center mt-5" data-aos="fade-up">
           {/* Start Button */}
-          <button
-            onClick={handleClickCeo}
+          {/* <button
             // href="properties-list"
             href="/"
             className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg d-inline-flex hstack gap-2"
@@ -383,7 +425,7 @@ const FfthSection = () => {
             <span>Book Now</span>
             <span className="vr" />
             <i className="fa-arrow-right fa-solid fs-14" />
-          </button>
+          </button> */}
           {/* /.End Button */}
         </div>
       </div>
