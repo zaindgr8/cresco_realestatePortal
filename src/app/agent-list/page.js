@@ -7,7 +7,7 @@ export default async function AgentList() {
   return (
     <Layout>
       {/* Start Main Content */}
-      <div className="main-content">
+      <div id="teamwork" className="main-content">
         <div className="border-bottom py-3">
           <div className="container">
             {/* Start Breadcrumbs */}

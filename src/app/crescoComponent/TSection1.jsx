@@ -31,7 +31,7 @@ const TSection = () => {
                 {/* /. End Subtitle */}
                 {/* Start Section Header title */}
                 <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-                  Meet Our Realtors
+                  Meet The Faces Behind
                 </h2>
                 {/* /.End Section Header Title */}
                 {/* Start Section Header Sub Title */}

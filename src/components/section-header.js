@@ -1,33 +1,44 @@
 
+import localFont from "next/font/local";
+  const stroma = localFont({ src: "./fonts/Stroma-Regular.ttf" });
+  const roboto = localFont({ src: "./fonts/Roboto-Black.ttf" });
 
 export default async function SectionHeader() {
-    return (
-      <div className="row">
-        <div className="col-md-10 offset-md-1">
-          {/* Start Section Header Title */}
-          <div className="section-header text-center mb-5" data-aos="fade-down">
-            {/* Start Subtitle */}
-            <div className="bg-yellow-400 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-              Top Developers
-            </div>
-            {/* /. End Subtitle */}
-            {/* Start Section Header title */}
-            <h2 id="projects" className="h1 fw-semibold mb-3 section-header__title text-capitalize">
+
+  return (
+    <div className="row">
+      <div className="col-md-10 offset-md-1">
+        {/* Start Section Header Title */}
+        <div className="section-header text-center mb-5" data-aos="fade-down">
+          {/* Start Subtitle */}
+          <div className="bg-yellow-400 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+            <span className={roboto.className}>View Our Collection</span>
+          </div>
+          {/* /. End Subtitle */}
+          {/* Start Section Header title */}
+          <h2
+            id="projects"
+            className="h1 fw-semibold mb-3 section-header__title text-capitalize"
+          >
+            <span className={stroma.className}>
               We collaborate with
               <br />
               trusted developers.
-            </h2>
-            {/* /.End Section Header Title */}
-            {/* Start Section Header Sub Title */}
-            <div className="sub-title fs-16">
-              Over the years, we have fostered strong relationships  with
+            </span>
+          </h2>
+          {/* /.End Section Header Title */}
+          {/* Start Section Header Sub Title */}
+          <div className="sub-title fs-16">
+            <span className={roboto.className}>
+              Over the years, we have fostered strong relationships with
               numerous clients, establishing <br /> ourselves as a reputable and
               reliable partner in the industry.
-            </div>
-            {/* /.End Section Header Sub Title */}
+            </span>
           </div>
-          {/*/. End Section Header */}
+          {/* /.End Section Header Sub Title */}
         </div>
+        {/*/. End Section Header */}
       </div>
-    );
+    </div>
+  );
 }

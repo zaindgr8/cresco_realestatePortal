@@ -14,13 +14,13 @@ const Frthsection = () => {
         <Regions />
 
         <div className="text-center mt-5" data-aos="fade-up">
-          <p>Get best quoation today</p>
+          {/* <p>Get best quoation today</p> */}
           {/* Start Button */}
-          <button onClick={handleClickCeo} className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg d-inline-flex hstack gap-2">
+          {/* <button onClick={handleClickCeo} className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg d-inline-flex hstack gap-2">
             <span>Contact Now</span>
             <span className="vr" />
             <i className="fa-arrow-right fa-solid fs-14" />
-          </button>
+          </button> */}
           {/* /.End Button */}
         </div>
       </div>

@@ -20,17 +20,17 @@ export default async function Regions() {
                 data-aos-delay={aosDelay}
               >
                 {/* Start image Container */}
-                <div className="w-[25vh] h-[25vh] overflow-hidden position-relative rounded-3 shadow">
+                <div className="w-[25vh] h-[20vh] overflow-hidden position-relative rounded-3 ">
                   <img
                     src={region.img}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full "
                     alt=""
                   />
                 </div>
                 {/* End image Container */}
                 <div className="accordion bottom-0 d-flex flex-column h-100 justify-content-end mask overflow-hidden position-absolute start-0 w-100 z-1">
                   <div className="mask-content m-3">
-                    <h2>{region.title}</h2>
+                    {/* <h2>{region.title}</h2> */}
                     {/* <span className="d-none d-md-block d-xl-none d-xxl-block">
                         {region.properties}
                       </span> */}

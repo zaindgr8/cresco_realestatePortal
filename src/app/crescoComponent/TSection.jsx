@@ -30,7 +30,9 @@ const TSection = () => {
                   id="agents"
                   className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900"
                 >
-                  <span className={roboto.className}>Agents</span>
+                  <span id="teamwork" className={roboto.className}>
+                    Get to Know Us
+                  </span>
                 </div>
                 {/* /. End Subtitle */}
                 {/* Start Section Header title */}

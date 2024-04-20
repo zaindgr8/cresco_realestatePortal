@@ -57,57 +57,13 @@ export default function Header() {
 
     return (
       <>
-        {/* Start Topbar */}
-        {/* <div className="d-none d-lg-block topbar-bg bg-gray-900 text-white">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-md-4 col-lg-3 col-xl-6">
-                <Link href="/" className="headerLogo">
-                  <img
-                    className="h-20 w-[15vh] mb-2"
-                    src="assets/img/clogo.png"
-                  />
-                </Link>
-              </div>
-              <div className="col-md-8 col-lg-9 col-xl-8 d-flex justify-content-end align-items-center">
-                <PiFacebookLogoFill className="w-[4vh] h-[4vh] ms-4" />
-                <BiLogoInstagramAlt className="w-[4vh] h-[4vh] ms-4" />
-                <AiFillYoutube className="w-[4vh] h-[4vh] ms-4" />
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* /.End Topbar */}
-        {/* Start Navbar */}
         <div
-          // className={
-          //   hasLogo
-          //     ? "has-logo navbar-wrap sticky-top"
-          //     : "no-logo navbar-wrap sticky-top"
-          // }
           className={
-            hasLogo
-              ? "has-logo navbar-wrap "
-              : "no-logo navbar-wrap sticky-top"
+            hasLogo ? "has-logo navbar-wrap " : "no-logo navbar-wrap sticky-top"
           }
         >
           <div className="container-lg mt-5 nav-container position-absolute ">
-            <nav className="custom-navbar  navbar-expand-lg ml-16">
-              {/* Start Navbar Brand */}
-              {/* <Link className="navbar-brand pe-3 pe-sm-4 py-0" href="/">
-                <img
-                  className="logo-dark mb-3"
-                  src="assets/img/logo2.png"
-                  alt=""
-                />
-                <img
-                  className="logo-white mb-3"
-                  src="assets/img/logo2.png"
-                  alt=""
-                />
-              </Link> */}
-              {/* End Navbar Brand */}
-              {/* Start Navbar Collapse */}
+            <nav className="custom-navbar justify-center  navbar-expand-lg ml-16">
               <div className="navbar-collapse" id="navbarSupportedContent">
                 {/* Start Navbar Collapse Header */}
                 <div className="align-items-center border-bottom d-flex d-lg-none justify-content-between mb-3 navbar-collapse__header pb-3">
@@ -135,94 +91,77 @@ export default function Header() {
                   {/* End Collapse Close Button */}
                 </div>
                 {/* End Navbar Collapse Header */}
-                <ul className="items-center justify-center container flex gap-x-5">
-                  <li className={stroma.className}>
-                    <Link
-                      className="text-xl text-white hover:text-yellow-500"
-                      href="#"
-                      role="button"
-                    >
-                      Home
-                    </Link>
-                  </li>
-                  <li className={stroma.className}>
-                    <Link
-                      className="text-xl text-white hover:text-yellow-500"
-                      href="#"
-                    >
-                      About Us
-                    </Link>
-                  </li>
-                  <li className={stroma.className}>
-                    <Link
-                      className="text-xl text-white hover:text-yellow-500"
-                      href="#"
-                    >
-                      Team
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="navbar-brand pe-3 pe-sm-4 py-0" href="/">
-                      <img
-                        width={100}
-                        className="logo-dark"
-                        src="assets/img/logo2.png"
-                        alt=""
-                      />
-                      <img
-                        className="logo-white"
-                        src="assets/img/logo2.png"
-                        alt=""
-                      />
-                    </Link>
-                  </li>
-                  <li className={stroma.className}>
-                    <Link
-                      className="text-white text-xl  hover:text-yellow-500 "
-                      href="#"
-                    >
-                      Projects
-                    </Link>
-                  </li>
-                  <li className={stroma.className}>
-                    <Link
-                      className=" text-white text-xl hover:text-yellow-500"
-                      href="#"
-                    >
-                      Properties
-                    </Link>
-                  </li>
-                  <li className={stroma.className}>
-                    <Link
-                      className="text-xl text-white hover:text-yellow-500"
-                      href="#"
-                    >
-                      Contact Us
-                    </Link>
-                  </li>
-                </ul>
+                <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center h-20 ">
+                  <ul className="flex items-center justify-center gap-x-5">
+                    <li className={stroma.className}>
+                      <Link
+                        className="text-xl text-white hover:text-yellow-500"
+                        href="#"
+                        role="button"
+                      >
+                        Home
+                      </Link>
+                    </li>
+                    <li className={stroma.className}>
+                      <Link
+                        className="text-xl text-white hover:text-yellow-500"
+                        href="#who"
+                      >
+                        Who We Are
+                      </Link>
+                    </li>
+                    <li className={stroma.className}>
+                      <Link
+                        className="text-xl text-white hover:text-yellow-500"
+                        href="#teamwork"
+                      >
+                        Teamwork
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-brand pe-3 pe-sm-4 py-0" href="/">
+                        <img
+                          width={100}
+                          className="logo-dark"
+                          src="assets/img/logo2.png"
+                          alt=""
+                        />
+                        <img
+                          className="logo-white"
+                          src="assets/img/logo2.png"
+                          alt=""
+                        />
+                      </Link>
+                    </li>
+                    <li className={stroma.className}>
+                      <Link
+                        className="text-white text-xl hover:text-yellow-500"
+                        href="#"
+                      >
+                        Properties
+                      </Link>
+                    </li>
+                    <li className={stroma.className}>
+                      <Link
+                        className="text-white text-xl hover:text-yellow-500"
+                        href="#"
+                      >
+                        Projects
+                      </Link>
+                    </li>
+                    <li className={stroma.className}>
+                      <Link
+                        className="text-xl text-white hover:text-yellow-500"
+                        href="#"
+                      >
+                        Clients Stories
+                      </Link>
+                    </li>
+                  </ul>
+                </nav>
               </div>
               {/*  /. End Navbar Collapse */}
               <div className="d-flex gap-1 ms-lg-5">
-                {/* Start Cart Button */}
-                {/* <Link
-                  href="/"
-                  data-bs-toggle="modal"
-                  data-bs-target="#cartEmpty"
-                  className="align-items-center btn cart-button d-none d-xl-flex ms-2 ms-lg-0"
-                >
-                  <span className="ms-2 text-gray-500 text-md">
-                    CRESCO Real Estate
-                  </span>
-                </Link> */}
-                {/* For Mobile */}
-                <Link
-                  href="/"
-                  className="btn btn-primary d-none d-sm-inline-block d-xl-none"
-                >
-                  <i className="fa-solid fa-cart-shopping"></i>
-                </Link>
-
                 <button
                   className="navbar-toggler"
                   type="button"

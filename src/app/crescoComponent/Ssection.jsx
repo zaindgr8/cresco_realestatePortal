@@ -20,7 +20,7 @@ const Ssection = () => {
               {/* Start Subtitle */}
 
               <div className="bg-yellow-400 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-                <p className={roboto.className}>About Us</p>
+                <p id='who' className={roboto.className}>Learn About Our Values</p>
               </div>
 
               {/* /. End Subtitle */}

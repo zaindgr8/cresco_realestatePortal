@@ -54,7 +54,7 @@ function Dropdown() {
     <form className="row g-2 main-search">
       <div className="col-md-4">
         <div className="search-select">
-          <span className={roboto.className}>
+          <span >
             <Select
               id="test"
               options={options}
@@ -70,9 +70,9 @@ function Dropdown() {
       </div>
 
       <div className="col-md-4">
-        {" "}
+
         <div className="search-select">
-          <span className={roboto.className}>
+          <span >
             <Select
               options={optionsTwo}
               defaultValue={value}
@@ -87,16 +87,15 @@ function Dropdown() {
       </div>
 
       <div className="col-md-4">
-        {" "}
         <div className="search-input">
           <i className="fa-solid fa-magnifying-glass search-icon" />
-          <span className={roboto.className}>
+          <span >
             <input type="text" className="form-control" placeholder="Budget" />
           </span>
           <Link
             // href="properties-list"
             href="/"
-            className="btn bg-yellow-400 hover:border-yellow-400 hover:bg-yellow-500 search-btn position-absolute top-50"
+            className="btn search-btn position-absolute top-50"
           >
             <i className="fa-solid fa-angle-right" />
           </Link>

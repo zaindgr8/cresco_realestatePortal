@@ -1,6 +1,9 @@
 "use client"
 import Link from 'next/link';
 import React from 'react'
+import localFont from "next/font/local";
+const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
+const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
 
 const FfthSection = () => {
    const handleClickCeo = () => {
@@ -21,7 +24,7 @@ const FfthSection = () => {
               {/* Start Section Header title */}
 
               <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-                Browse our inventory
+                Take a Look at Our Assortments
               </h2>
 
               {/* /.End Section Header Title */}
@@ -65,16 +68,14 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">140,000 AED</h3>
+                  <h3 className="m-0 fw-semibold text-yellow-500">
+                    140,000 AED
+                  </h3>
                   <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">
-                  JVC
-                </h4>
-                <div className="card-property-description mb-3">
-                  Dubai, UAE
-                </div>
+                <h4 className="property-card-title mb-3">JVC</h4>
+                <div className="card-property-description mb-3">Dubai, UAE</div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -122,14 +123,14 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">95,000 AED</h3>
+                  <h3 className="m-0 fw-semibold text-yellow-500">
+                    95,000 AED
+                  </h3>
                   <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
                 <h4 className="property-card-title mb-3">Creek Harbour</h4>
-                <div className="card-property-description mb-3">
-                  Dubai, UAE
-                </div>
+                <div className="card-property-description mb-3">Dubai, UAE</div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -177,16 +178,14 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">130,000 AED</h3>
+                  <h3 className="m-0 fw-semibold text-yellow-500">
+                    130,000 AED
+                  </h3>
                   <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">
-                  Dubai Science Park
-                </h4>
-                <div className="card-property-description mb-3">
-                  Dubai, UAE
-                </div>
+                <h4 className="property-card-title mb-3">Dubai Science Park</h4>
+                <div className="card-property-description mb-3">Dubai, UAE</div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -238,12 +237,8 @@ const FfthSection = () => {
                   <div> / full-payment</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">
-                  Dubai Sports City
-                </h4>
-                <div className="card-property-description mb-3">
-                  Dubai, UAE
-                </div>
+                <h4 className="property-card-title mb-3">Dubai Sports City</h4>
+                <div className="card-property-description mb-3">Dubai, UAE</div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -291,16 +286,14 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">50,000 AED</h3>
+                  <h3 className="m-0 fw-semibold text-yellow-500">
+                    50,000 AED
+                  </h3>
                   <div> /month</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">
-                  Arjan
-                </h4>
-                <div className="card-property-description mb-3">
-                  Dubai, UAE
-                </div>
+                <h4 className="property-card-title mb-3">Arjan</h4>
+                <div className="card-property-description mb-3">Dubai, UAE</div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -323,7 +316,7 @@ const FfthSection = () => {
             </div>
             {/* /. End Card Property */}
           </div>
-        
+
           <div
             className="col-sm-6 col-lg-4 col-xl-3 d-flex"
             data-aos="fade-up"
@@ -349,16 +342,14 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-gray-900">14,50,000 AED</h3>
+                  <h3 className="m-0 fw-semibold text-gray-900">
+                    14,50,000 AED
+                  </h3>
                   <div> / full-payment</div>
                 </div>
                 {/* /. End Card Property Price */}
-                <h4 className="property-card-title mb-3">
-                  Marina
-                </h4>
-                <div className="card-property-description mb-3">
-                  Dubai, UAE
-                </div>
+                <h4 className="property-card-title mb-3">Marina</h4>
+                <div className="card-property-description mb-3">Dubai, UAE</div>
                 {/* Start Card Property Facilities */}
                 <div className="border card-property-facilities gap-2 hstack mt-auto p-3 pt-3 rounded-3 text-center">
                   <div className="">
@@ -384,7 +375,8 @@ const FfthSection = () => {
         </div>
         <div className="text-center mt-5" data-aos="fade-up">
           {/* Start Button */}
-          <button onClick={handleClickCeo}
+          <button
+            onClick={handleClickCeo}
             // href="properties-list"
             href="/"
             className="btn bg-gray-900 text-white hover:bg-gray-700 btn-lg d-inline-flex hstack gap-2"

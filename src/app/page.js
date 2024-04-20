@@ -7,13 +7,18 @@ import FfthSection from "@/app/crescoComponent/FfthSection";
 import Testimonial from "@/app/crescoComponent/Testimonial";
 import CeoMessage from "./crescoComponent/CeoMessage";
 
+
 export default function HomeTwo() {
   return (
     <>
       <Layout>
+        {/* //Hero Section */}
         <FSection />
-        <Ssection />
+        {/* //Team Section */}
         <TSection />
+        {/* //About Section */}
+        <Ssection /> 
+        {/* //Projects */}
         <Frthsection />
         <FfthSection />
         <Testimonial />
