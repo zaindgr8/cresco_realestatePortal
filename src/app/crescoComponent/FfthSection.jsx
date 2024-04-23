@@ -1,5 +1,6 @@
-import localFont from "next/font/local";
 import Link from "next/link";
+
+import localFont from "next/font/local";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
 
@@ -431,6 +432,6 @@ const FfthSection = () => {
       </div>
     </div>
   );
-}
+};
 
-export default FfthSection
+export default FfthSection;

@@ -90,7 +90,6 @@ function Dropdown() {
           <i className="fa-solid fa-magnifying-glass search-icon" />
           <span>
             <input
-          
               type="text"
               className="form-control"
               placeholder="Budget"
