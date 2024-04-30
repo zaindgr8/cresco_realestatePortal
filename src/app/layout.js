@@ -25,6 +25,17 @@ const myFont = localFont({
 src: "./fonts/Roboto-Black.ttf", 
 variable:"--font-myfont"})
 
+const robotoThin = localFont({
+  src: "./fonts/Roboto-Thin.ttf",
+  variable: "--font-robotoThin",
+});
+
+const robotoReg = localFont({
+  src: "./fonts/Roboto-Regular.ttf",
+  variable: "--font-robotoReg",
+});
+
+
 export const metadata = {
   title: 'CRESCO- Your Trust is our priority!',
   description: 'Real Estate Website',
@@ -40,7 +51,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${myFont.className}  ${openSans.variable} ${robotoMono.variable} font-sans`}
+      className={`${myFont.className} ${robotoReg.className} ${robotoThin.className} ${openSans.variable} ${robotoMono.variable} font-sans`}
     >
       <AOSInit />
       <body>

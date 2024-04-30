@@ -1,5 +1,5 @@
-import Dropdown from '@/components/form-control-two';
-import React from 'react'
+import Dropdown from "@/components/form-control-two";
+import React from "react";
 import localFont from "next/font/local";
 
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
@@ -36,7 +36,7 @@ const FSection = () => {
           <div>
             <div>
               {/* <p class="title-sm">BEAT TRAFFIC JAMS AND CLINIC QUEUES.</p> */}
-              {/* <div className=" bg-yellow-500 w-[35vh] font-bold text-white d-inline-block fw-medium mb-5 text-lg rounded-pill section-header__subtitle text-capitalize">
+              {/* <div className=" #DAB852 w-[35vh] font-bold text-white d-inline-block fw-medium mb-5 text-lg rounded-pill section-header__subtitle text-capitalize">
                 Cresco Real Estate
               </div> */}
               <h1 className=" hero-header_title text-white fw-bold mb-5 text-5xl leading-[8vh]">
@@ -53,6 +53,6 @@ const FSection = () => {
       </div>
     </>
   );
-}
+};
 
-export default FSection
+export default FSection;

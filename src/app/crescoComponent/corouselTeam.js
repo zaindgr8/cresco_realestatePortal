@@ -107,64 +107,7 @@ const Carousel = () => {
       </div>
       {/* /.End Grid Post */}
       {/* Start Grid Post */}
-      <div className="team-member">
-        <div className="member-header overflow-hidden position-relative rounded-4">
-          <div className="w-full h-[45vh] overflow-hidden">
-            <img
-              src="assets/img/avatar/3.jpg"
-              className="w-full h-full object-cover"
-              alt=""
-            />
-          </div>
-        </div>
-        {/* Start Avatar Info */}
-        <div className="flex items-center flex-col">
-          <h5 className="mt-3 mb-1">
-            <Link href="/">
-              <span className={stroma.className}>Omer Aladheem</span>
-            </Link>
-          </h5>
-          <div className="flex items-center gap-x-2">
-            <PiBriefcaseFill />
-            Sales Executive
-          </div>
-          <div className="text-sm flex gap-x-2 items-center">
-            <FaPhone />
-            +971542188244
-          </div>
-        </div>
-        {/* /.End Avatar Info */}
-      </div>
-      {/* /.End Grid Post */}
-      {/* Start Grid Post */}
-      <div className="team-member">
-        <div className="member-header overflow-hidden position-relative rounded-4">
-          <div className="w-full h-[45vh] overflow-hidden">
-            <img
-              src="assets/img/avatar/4.jpg"
-              className="h-full w-full object-cover"
-              alt=""
-            />
-          </div>
-        </div>
-        {/* Start Avatar Info */}
-        <div className="flex items-center flex-col">
-          <h5 className="mt-3 mb-1">
-            <Link href="/">
-              <span className={stroma.className}>Margault Pearl</span>
-            </Link>
-          </h5>
-          <div className="flex items-center gap-x-2">
-            <PiBriefcaseFill />
-            Off-Plan Consultant
-          </div>
-          <div className="text-sm flex gap-x-2 items-center">
-            <FaPhone />
-            +971521021429
-          </div>
-        </div>
-        {/* /.End Avatar Info */}
-      </div>
+     
       {/* /.End Grid Post */}
       {/* Start Grid Post */}
       <div className="team-member">

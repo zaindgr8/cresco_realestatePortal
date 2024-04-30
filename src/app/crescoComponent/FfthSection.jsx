@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import localFont from "next/font/local";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
-const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
+const roboto = localFont({ src: "../fonts/Roboto-Regular.ttf" });
 
 const FfthSection = () => {
   return (
@@ -13,7 +13,7 @@ const FfthSection = () => {
             {/* Start Section Header Title */}
             <div className="section-header text-center mb-5">
               {/* Start Subtitle */}
-              <div className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+              <div className="bg-[#DAB852] d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
                 <span className={roboto.className}>Featured Properties</span>
               </div>
               {/* /. End Subtitle */}
@@ -65,7 +65,7 @@ const FfthSection = () => {
                   alt=""
                   className="img-fluid"
                 />
-                <div className="bg-yellow-500 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                <div className="bg-[#DAB852] card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
                   For Rent
                 </div>
               </div>
@@ -73,7 +73,7 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">
+                  <h3 className="m-0 fw-semibold text-[#DAB852]">
                     140,000 AED
                   </h3>
                   <div> /year</div>
@@ -125,7 +125,7 @@ const FfthSection = () => {
                   alt=""
                   className="img-fluid"
                 />
-                <div className="bg-yellow-500 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                <div className="bg-[#DAB852] card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
                   For Rent
                 </div>
               </div>
@@ -133,9 +133,7 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">
-                    95,000 AED
-                  </h3>
+                  <h3 className="m-0 fw-semibold text-[#DAB852]">95,000 AED</h3>
                   <div> /year</div>
                 </div>
                 {/* /. End Card Property Price */}
@@ -185,7 +183,7 @@ const FfthSection = () => {
                   alt=""
                   className="img-fluid"
                 />
-                <div className="bg-yellow-500 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                <div className="bg-[#DAB852] card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
                   For Rent
                 </div>
               </div>
@@ -193,7 +191,7 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">
+                  <h3 className="m-0 fw-semibold text-[#DAB852]">
                     130,000 AED
                   </h3>
                   <div> /year</div>
@@ -245,7 +243,7 @@ const FfthSection = () => {
                   alt=""
                   className="img-fluid"
                 />
-                <div className="bg-yellow-500 card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
+                <div className="bg-[#DAB852] card-property-badge d-inline-block end-1 fs-13 fw-semibold position-absolute property-tags px-2 py-1 rounded-3 text-white top-1">
                   For Rent
                 </div>
               </div>
@@ -253,9 +251,7 @@ const FfthSection = () => {
               <div className="card-property-content-wrap d-flex flex-column h-100 position-relative p-4">
                 {/* Start Card Property Price */}
                 <div className="align-items-end card-property-price d-flex flex-row mb-1 gap-1">
-                  <h3 className="m-0 fw-semibold text-yellow-500">
-                    50,000 AED
-                  </h3>
+                  <h3 className="m-0 fw-semibold text-[#DAB852]">50,000 AED</h3>
                   <div> /month</div>
                 </div>
                 {/* /. End Card Property Price */}

@@ -7,6 +7,7 @@ import localFont from "next/font/local";
 const stroma = localFont({ src: "./fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "./fonts/Roboto-Black.ttf" });
 
+
 const Select = dynamic(() => import("react-select"), {
   ssr: false,
 });
@@ -89,23 +90,17 @@ function Dropdown() {
         <div className="search-input">
           <i className="fa-solid fa-magnifying-glass search-icon" />
           <span>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Budget"
-            />
+            <input type="text" className="form-control" placeholder="Budget" />
           </span>
           <Link
             // href="properties-list"
             href="/"
-            className="bg-yellow-400 p-1 px-3 rounded-sm search-btn position-absolute top-50"
+            className="bg-[#DAB852] p-1 px-3 rounded-sm search-btn position-absolute top-50"
           >
             <i className="fa-solid fa-angle-right" />
           </Link>
         </div>
       </div>
-
-      
     </form>
 
     // End Form

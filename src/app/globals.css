@@ -1189,7 +1189,7 @@ textarea.form-control {
   font-size: .75rem;
   border-radius: 50%;
   background-color: #212529; /* Maintain original background color */
-  color: #ffc107; /* Yellow-500 color in Bootstrap */
+  color: #DAB852; /* Yellow-500 color in Bootstrap */
   -webkit-transform: translate(0, -50%);
       -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);

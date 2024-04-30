@@ -24,7 +24,7 @@ const TSection = () => {
                 {/* Start Subtitle */}
                 <div
                   id="agents"
-                  className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900"
+                  className="#DAB852 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900"
                 >
                   Agents
                 </div>

@@ -7,7 +7,7 @@ import { SiWhatsapp } from "react-icons/si";
 import localFont from "next/font/local";
 
 const stroma = localFont({ src: "./fonts/Stroma-Regular.ttf" });
-const roboto = localFont({ src: "./fonts/Roboto-Black.ttf" });
+const roboto = localFont({ src: "./fonts/Roboto-Regular.ttf" });
 
 
 export default function Footer() {
@@ -55,7 +55,7 @@ export default function Footer() {
                           className="py-3 px-4 border border-gray-300 rounded-l-md focus:outline-none focus:border-yellow-500"
                         />
                       </span>
-                      <button className="bg-[#EAC361] hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-r-md focus:outline-none">
+                      <button className="bg-[#DAB852] hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-r-md focus:outline-none">
                         <span className={roboto.className}>Subscribe</span>
                       </button>
                     </div>

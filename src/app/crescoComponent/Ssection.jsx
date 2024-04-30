@@ -1,10 +1,10 @@
 "use client"
 import Link from 'next/link';
-import React, { useRef, useEffect } from "react";
 import localFont from "next/font/local";
 
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
 const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
+const roboto2 = localFont({ src: "../fonts/Roboto-Regular.ttf" });
 
 const Ssection = () => {
   return (
@@ -19,8 +19,10 @@ const Ssection = () => {
             >
               {/* Start Subtitle */}
 
-              <div className="bg-yellow-400 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-                <p id='who' className={roboto.className}>Learn About Our Values</p>
+              <div className="bg-[#DAB852] d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+                <p id="who" className={roboto2.className}>
+                  Learn About Our Values
+                </p>
               </div>
 
               {/* /. End Subtitle */}
@@ -33,7 +35,7 @@ const Ssection = () => {
               {/* /.End Section Header Title */}
               {/* Start Section Header Sub Title */}
               <div className="sub-title fs-16">
-                <span className={roboto.className}>
+                <span className={roboto2.className}>
                   Cresco Real Estate specializes in property transactions in
                   Dubai, offering expertise in both buying and selling. Our
                   comprehensive list of projects and authorized agents ensures a
@@ -48,8 +50,8 @@ const Ssection = () => {
         </div>
         <div className="row g-4 justify-content-center">
           <div className="col-md-6 d-flex">
-            <div className="bg-yellow-400 text-white p-4 p-lg-5 rounded-3 w-100 flex-fill">
-              <span className={roboto.className}>
+            <div className="bg-[#DAB852] text-white p-4 p-lg-5 rounded-3 w-100 flex-fill">
+              <span className={roboto2.className}>
                 We specialize in trusted high-rise projects in Dubai,
                 prioritizing excellence and client trust.
               </span>
@@ -68,14 +70,14 @@ const Ssection = () => {
           <div className="col-md-6 d-flex">
             <div className="bg-dark p-4 p-lg-5 rounded-3 w-100 flex-fill">
               <h5 className="fs-18  text-white">
-                <span className={roboto.className}>
+                <span className={roboto2.className}>
                   We exclusively employ top-notch and trustworthy realtors to
                   guide you every step of the way.
                 </span>
               </h5>
               <Link
                 href="#agents"
-                className="btn text-white bg-yellow-400 hover:bg-yellow-600 mt-3 d-inline-flex hstack gap-2 "
+                className="btn text-white bg-[#DAB852] hover:bg-yellow-600 mt-3 d-inline-flex hstack gap-2 "
               >
                 <span className={stroma.className}>View Agents</span>
                 <span className="vr" />

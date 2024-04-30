@@ -1,7 +1,7 @@
 import Testimonial from "../../data/testimonial.json";
 import localFont from "next/font/local";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
-const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
+const roboto = localFont({ src: "../fonts/Roboto-Regular.ttf" });
 
 const Testimonial1 = () => {
   return (
@@ -18,7 +18,7 @@ const Testimonial1 = () => {
               data-aos="fade-down"
             >
               {/* Start Subtitle */}
-              <div className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+              <div className="bg-[#DAB852] d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
                 <span className={roboto.className}>Testimonial</span>
               </div>
               {/* /. End Subtitle */}
@@ -52,7 +52,10 @@ const Testimonial1 = () => {
               </div>
               {/* /. End Ratings */}
               <h6 className="text-center mb-0 mt-2 fs-17">
-                <span className={roboto.className}> Overall Client Ratings</span>
+                <span className={roboto.className}>
+                  {" "}
+                  Overall Client Ratings
+                </span>
               </h6>
             </div>
             {/*/. End Section Header */}
@@ -113,7 +116,9 @@ const Testimonial1 = () => {
                           </span>
                         </h6>
                         <div className="fs-15 text-gray-500">
-                          <span className={roboto.className}>{testimonial.mention}</span>
+                          <span className={roboto.className}>
+                            {testimonial.mention}
+                          </span>
                         </div>
                       </div>
                       <i className="fa-brands fa-twitter fs-4 text-gray-900" />
@@ -128,6 +133,6 @@ const Testimonial1 = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Testimonial1
+export default Testimonial1;

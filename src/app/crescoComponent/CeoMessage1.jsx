@@ -1,15 +1,24 @@
 import React from "react";
 import localFont from "next/font/local";
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
-const roboto = localFont({ src: "../fonts/Roboto-Regular.ttf" });
+const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
 
 const CeoMessage = () => {
   return (
-    <div className="px-5 align-items-center row bg-[#111827]  flex justify-between">
-      <img
-        src="assets/img/about/CEO.png"
-        className="w-[63vh] h-auto max-w-full"
-      />
+    <div className="px-5 align-items-center row bg-[#242726]  h-fit-screen">
+      <div className="col-md-12 col-lg-5">
+        <div className="row  align-items-center">
+          <div className="position-relative">
+            <div className="" />
+            <img
+              width={150}
+              src="assets/img/about/CEO.png"
+              className="img-fluid position-relative"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
 
       <div
         className="col-md-12 col-lg-5 xl:ml-20 mt-5 ps-xxl-5 text-sm"
@@ -44,7 +53,7 @@ const CeoMessage = () => {
           </span>
           <hr className="mt-5" />
           <blockquote className="blockquote quote-text">
-            <p className=" mb-0 text-[#DAB852]">
+            <p className=" mb-0 text-yellow-500">
               <span className={stroma.className}>
                 “Real estate isn't just about buying a property; it's about
                 investing in possibilities, planting roots, and building

@@ -4,7 +4,8 @@ import Corousel from "./corouselTeam"
 import localFont from "next/font/local";
 
 const stroma = localFont({ src: "../fonts/Stroma-Regular.ttf" });
-const roboto = localFont({ src: "../fonts/Roboto-Black.ttf" });
+const roboto2 = localFont({ src: "../fonts/Roboto-Regular.ttf" });
+
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -28,9 +29,9 @@ const TSection = () => {
                 {/* Start Subtitle */}
                 <div
                   id="agents"
-                  className="bg-yellow-500 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900"
+                  className="bg-[#DAB852] d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900"
                 >
-                  <span id="teamwork" className={roboto.className}>
+                  <span id="teamwork" className={roboto2.className}>
                     Get to Know Us
                   </span>
                 </div>
@@ -44,7 +45,7 @@ const TSection = () => {
                 {/* /.End Section Header Title */}
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
-                  <p className={roboto.className}>
+                  <p className={roboto2.className}>
                     Discover luxury real estate in Dubai with our expert team.
                     Specializing in opulent living spaces
                     <br className="d-none d-lg-block" /> and trusted projects,

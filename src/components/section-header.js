@@ -1,18 +1,18 @@
-
 import localFont from "next/font/local";
-  const stroma = localFont({ src: "./fonts/Stroma-Regular.ttf" });
-  const roboto = localFont({ src: "./fonts/Roboto-Black.ttf" });
+const stroma = localFont({ src: "./fonts/Stroma-Regular.ttf" });
+const roboto = localFont({ src: "./fonts/Roboto-Regular.ttf" });
 
 export default async function SectionHeader() {
-
   return (
     <div className="row">
       <div className="col-md-10 offset-md-1">
         {/* Start Section Header Title */}
         <div className="section-header text-center mb-5" data-aos="fade-down">
           {/* Start Subtitle */}
-          <div className="bg-yellow-400 d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-            <span id="projects" className={roboto.className}>View Our Collection</span>
+          <div className="bg-[#DAB852] d-inline-block fw-medium mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+            <span id="projects" className={roboto.className}>
+              View Our Collection
+            </span>
           </div>
           {/* /. End Subtitle */}
           {/* Start Section Header title */}

@@ -8,10 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-       fontFamily: {
+      fontFamily: {
         sans: ["var(--font-opensans)"],
         mono: ["var(--font-roboto-mono)"],
-        my: ["var(--font-myfont)"]
+        my: ["var(--font-myfont)"],
+        thin: ["var(--font-robotoThin)"],
+        reg: ["var(--font-robotoReg)"],
       },
     },
   },
