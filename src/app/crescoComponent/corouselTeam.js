@@ -50,7 +50,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <img
               src="assets/img/avatar/1.jpg"
-              className="w-full h-full object-cover"
+              className="w-full h-full "
               alt=""
             />
           </div>
@@ -82,7 +82,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <img
               src="assets/img/avatar/2.jpg"
-              className="w-full h-full object-cover"
+              className="w-full h-full "
               alt=""
             />
           </div>
@@ -107,7 +107,7 @@ const Carousel = () => {
       </div>
       {/* /.End Grid Post */}
       {/* Start Grid Post */}
-     
+
       {/* /.End Grid Post */}
       {/* Start Grid Post */}
       <div className="team-member">
@@ -115,7 +115,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <img
               src="assets/img/avatar/5.jpg"
-              className="w-full h-full object-cover"
+              className="w-full h-full "
               alt=""
             />
           </div>
@@ -145,7 +145,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <img
               src="assets/img/avatar/6.jpg"
-              className="w-full h-full object-cover"
+              className="w-full h-full "
               alt=""
             />
           </div>
@@ -176,7 +176,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <img
               src="assets/img/avatar/7.jpg"
-              className="w-full h-full object-cover"
+              className="w-full h-full "
               alt=""
             />
           </div>
@@ -206,7 +206,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <img
               src="assets/img/avatar/8.jpg"
-              className="w-full h-full object-cover"
+              className="w-full h-full "
               alt=""
             />
           </div>
